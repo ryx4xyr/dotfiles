@@ -1,0 +1,20 @@
+** Message: 19:17:21.790: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 19:17:21.791: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 19:17:21.823: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 19:17:21.833: factory.vala:47: Loading widget: mpris
+** Message: 19:17:21.833: factory.vala:47: Loading widget: title
+** Message: 19:17:21.834: factory.vala:47: Loading widget: volume
+** Message: 19:18:12.658: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 19:18:12.658: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 19:18:12.659: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 19:18:12.669: factory.vala:47: Loading widget: mpris
+** Message: 19:18:12.669: factory.vala:47: Loading widget: title
+** Message: 19:18:12.670: factory.vala:47: Loading widget: volume
+** Message: 19:20:21.027: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 19:20:21.028: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 19:20:21.029: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+(swaync:1849935): Gtk-WARNING **: 19:20:21.029: Theme parser error: style.css:341:7-8: Expected a valid selector
+** Message: 19:20:21.038: factory.vala:47: Loading widget: mpris
+** Message: 19:20:21.038: factory.vala:47: Loading widget: title
+** Message: 19:20:21.038: factory.vala:47: Loading widget: volume
