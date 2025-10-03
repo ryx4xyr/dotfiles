@@ -1,0 +1,80 @@
+$hud-color: #fff;
+
+/*.hud {
+  background: radial-gradient(circle,
+    rgba(70, 25, 104, 0.5),
+    rgba(114, 49, 170, 0.6),
+    rgba(157, 78, 221, 0.5)
+  );
+  border-radius: 16px;
+  color: #fff;
+  font-size: 36px;
+  padding: 1.2em 1.4em;
+  font-family: "Iosevka", sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); 
+  transition: all 0.3s ease-in-out;
+}*/
+
+.media-overlay {
+  background: radial-gradient(circle,
+  rgba(30, 70, 150, 0.8),
+  rgba(50, 100, 190, 0.7),
+  rgba(90, 140, 230, 0.6)
+  );
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 5rem;
+  color: #cfcfff;
+  animation: fadeout 1s ease-in-out forwards;
+}
+
+.screenshot-popup {
+/*  background: radial-gradient(circle,
+    rgb(30, 0, 50),
+    rgb(70, 20, 100),
+    rgb(100, 40, 150)
+    );*/
+  background: rgba(31, 30, 48,0.85);
+  border-radius: 10px;
+  padding: 6px;
+  min-width: 210px; // opcional, para limitar vacíos
+  border: 1px solid rgba(185, 144, 232, 0.5);
+  image {
+    border-radius: 10px;
+    margin-bottom: 4px;
+  }
+}
+
+.screenshot-btn {
+  font-size: 9.5px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  border: none;
+
+  &.open {
+    background-color:rgba(185, 144, 232, 0.8);
+    color: white;
+  }
+
+  &.copy {
+    background-color: #4a90e2;
+    color: white;
+  }
+
+  &.delete {
+    background-color: #900c3f;
+    color: white;
+  }
+}
+
+.spotify-osd-inner {
+  background-color: rgba(30, 215, 96, 0.8);
+  padding: 12px 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'JetBrainsMono Nerd Font', 'Sans', monospace;
+  border-radius: 18px;
+  background-clip: padding-box;
+}
+

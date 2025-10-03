@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Stillness/wallpaper.png
+
+set $background #0b101b
+set $foreground #aab8d2
+
+set $color0 #0b101b
+set $color1 #2C4FA1
+set $color2 #2C6DBD
+set $color3 #5675B1
+set $color4 #2C76C1
+set $color5 #417DC0
+set $color6 #A17397
+set $color7 #aab8d2
+set $color8 #768093
+set $color9 #2C4FA1
+set $color10 #2C6DBD
+set $color11 #5675B1
+set $color12 #2C76C1
+set $color13 #417DC0
+set $color14 #A17397
+set $color15 #aab8d2

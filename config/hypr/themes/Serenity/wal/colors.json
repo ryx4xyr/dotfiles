@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kry_/.config/hypr/themes/Serenity/wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121812",
+        "foreground": "#d2dade",
+        "cursor": "#d2dade"
+    },
+    "colors": {
+        "color0": "#121812",
+        "color1": "#4F6E9A",
+        "color2": "#778EB0",
+        "color3": "#759CDA",
+        "color4": "#93A2B3",
+        "color5": "#97B2D6",
+        "color6": "#8DB0E1",
+        "color7": "#d2dade",
+        "color8": "#93989b",
+        "color9": "#4F6E9A",
+        "color10": "#778EB0",
+        "color11": "#759CDA",
+        "color12": "#93A2B3",
+        "color13": "#97B2D6",
+        "color14": "#8DB0E1",
+        "color15": "#d2dade"
+    }
+}

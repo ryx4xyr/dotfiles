@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Peek/wallpaper.png
+
+set $background #030510
+set $foreground #82cce1
+
+set $color0 #030510
+set $color1 #65124C
+set $color2 #3D4E69
+set $color3 #B34452
+set $color4 #0655A2
+set $color5 #0959A7
+set $color6 #DF6C8B
+set $color7 #82cce1
+set $color8 #5b8e9d
+set $color9 #65124C
+set $color10 #3D4E69
+set $color11 #B34452
+set $color12 #0655A2
+set $color13 #0959A7
+set $color14 #DF6C8B
+set $color15 #82cce1

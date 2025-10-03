@@ -1,0 +1,24 @@
+wallpaper: "/home/kry_/.config/hypr/themes/Solitude/wallpaper.jpg"
+
+special:
+    background: "#0a0f0f"
+    foreground: "#bfa794"
+    cursor: "#bfa794"
+
+colors:
+    color0: "#0a0f0f"
+    color1: "#433F3F"
+    color2: "#59442F"
+    color3: "#6C492D"
+    color4: "#303B44"
+    color5: "#3A434C"
+    color6: "#5D4F4E"
+    color7: "#bfa794"
+    color8: "#857467"
+    color9: "#433F3F"
+    color10: "#59442F"
+    color11: "#6C492D"
+    color12: "#303B44"
+    color13: "#3A434C"
+    color14: "#5D4F4E"
+    color15: "#bfa794"

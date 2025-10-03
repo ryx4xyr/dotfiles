@@ -1,0 +1,49 @@
+$hud-color: #fff;
+
+/*.hud {
+  background: radial-gradient(circle,
+    rgba(70, 25, 104, 0.5),
+    rgba(114, 49, 170, 0.6),
+    rgba(157, 78, 221, 0.5)
+  );
+  border-radius: 16px;
+  color: #fff;
+  font-size: 36px;
+  padding: 1.2em 1.4em;
+  font-family: "Iosevka", sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); 
+  transition: all 0.3s ease-in-out;
+}*/
+
+.media-overlay {
+  background: rgba(17, 43, 60, .99);
+  border: 1px solid rgba(121, 121, 121, 0.664);
+  border-radius: 20px;
+  padding: 7px;
+  font-size: 11px;
+  color: #b9e2fa;
+  animation: fadeout 1s ease-in-out forwards;
+}
+
+.screenshot-popup {
+  background: rgba(22, 25, 29,0.85);
+  border-radius: 10px;
+  padding: 6px;
+  min-width: 210px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  image {
+    border-radius: 10px;
+    margin-bottom: 4px;
+  }
+}
+
+.spotify-osd-inner {
+  background: rgba(30, 215, 96, 0.7);
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 8px;
+  font-family: 'JetBrainsMono Nerd Font', 'Sans', monospace;
+  animation: fadeout 1s ease-in-out forwards;
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kry_/Im\u00e1genes/backgrounds/1378545.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100a21",
+        "foreground": "#d9c1db",
+        "cursor": "#d9c1db"
+    },
+    "colors": {
+        "color0": "#100a21",
+        "color1": "#4E53B7",
+        "color2": "#6559B9",
+        "color3": "#7039C9",
+        "color4": "#6765C7",
+        "color5": "#9B66D3",
+        "color6": "#B960CA",
+        "color7": "#d9c1db",
+        "color8": "#978799",
+        "color9": "#4E53B7",
+        "color10": "#6559B9",
+        "color11": "#7039C9",
+        "color12": "#6765C7",
+        "color13": "#9B66D3",
+        "color14": "#B960CA",
+        "color15": "#d9c1db"
+    }
+}

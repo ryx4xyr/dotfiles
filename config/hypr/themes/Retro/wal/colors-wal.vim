@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Retro/wallpaper.png"
+let background = "#0d1011"
+let foreground = "#c5c0c1"
+let cursor     = "#c5c0c1"
+
+" Colors
+let color0  = "#0d1011"
+let color1  = "#606063"
+let color2  = "#994037"
+let color3  = "#A27671"
+let color4  = "#9C8B6F"
+let color5  = "#42759A"
+let color6  = "#4896C3"
+let color7  = "#c5c0c1"
+let color8  = "#898687"
+let color9  = "#606063"
+let color10 = "#994037"
+let color11 = "#A27671"
+let color12 = "#9C8B6F"
+let color13 = "#42759A"
+let color14 = "#4896C3"
+let color15 = "#c5c0c1"

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Serenity/wallpaper.jpg"
+let background = "#121812"
+let foreground = "#d2dade"
+let cursor     = "#d2dade"
+
+" Colors
+let color0  = "#121812"
+let color1  = "#4F6E9A"
+let color2  = "#778EB0"
+let color3  = "#759CDA"
+let color4  = "#93A2B3"
+let color5  = "#97B2D6"
+let color6  = "#8DB0E1"
+let color7  = "#d2dade"
+let color8  = "#93989b"
+let color9  = "#4F6E9A"
+let color10 = "#778EB0"
+let color11 = "#759CDA"
+let color12 = "#93A2B3"
+let color13 = "#97B2D6"
+let color14 = "#8DB0E1"
+let color15 = "#d2dade"

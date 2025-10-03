@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kry_/Im\u00e1genes/backgrounds/wallhaven-1q87xv.png",
+    "alpha": "100",
+    "special": {
+        "background": "#070806",
+        "foreground": "#c8a0ca",
+        "cursor": "#c8a0ca"
+    },
+    "colors": {
+        "color0": "#070806",
+        "color1": "#522540",
+        "color2": "#4B2455",
+        "color3": "#522965",
+        "color4": "#A5326B",
+        "color5": "#69388B",
+        "color6": "#584DA1",
+        "color7": "#c8a0ca",
+        "color8": "#8c708d",
+        "color9": "#522540",
+        "color10": "#4B2455",
+        "color11": "#522965",
+        "color12": "#A5326B",
+        "color13": "#69388B",
+        "color14": "#584DA1",
+        "color15": "#c8a0ca"
+    }
+}

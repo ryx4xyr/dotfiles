@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Eclipse/wallpaper.jpg"
+let background = "#000D19"
+let foreground = "#cf9a9b"
+let cursor     = "#cf9a9b"
+
+" Colors
+let color0  = "#000D19"
+let color1  = "#233A48"
+let color2  = "#4E3C48"
+let color3  = "#6F3D48"
+let color4  = "#60444B"
+let color5  = "#8A3E48"
+let color6  = "#91444A"
+let color7  = "#cf9a9b"
+let color8  = "#906b6c"
+let color9  = "#233A48"
+let color10 = "#4E3C48"
+let color11 = "#6F3D48"
+let color12 = "#60444B"
+let color13 = "#8A3E48"
+let color14 = "#91444A"
+let color15 = "#cf9a9b"

@@ -1,0 +1,153 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "margin": "8 10 0 10",
+    "output": "HDMI-A-1",
+    "modules-left": ["hyprland/workspaces", "custom/mpris"],
+    "modules-center": ["custom/notification", "clock", "custom/weather"],
+    "modules-right": ["pulseaudio", "cpu", "memory", "temperature", "bluetooth","network", "tray"],
+
+
+    //***************************
+    //*    LEFT   MODULES    // *
+    //***************************
+
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+            "*": [ 1,2,3,4 ]
+        }
+    },
+
+    "custom/mpris": {
+            "exec": "~/.config/waybar/scripts/mpris.sh",
+            "interval": 1,
+            "return-type": "json",
+            "on-click": "playerctl -p spotify play-pause",
+            "on-click-right": "playerctl next",
+            "on-click-middle": "playerctl previous",
+            "tooltip": true,
+	},
+
+    //***************************
+    //*    CENTER MODULES    // *
+    //***************************
+
+    "custom/notification": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+            "notification": "<span foreground='#c9c5c9'></span><span foreground='white'><sup></sup></span>",
+            "none": "<span foreground='#c9c5c9'></span>",
+            "dnd-notification": "<span foreground='#c9c5c9'></span><span foreground='white'><sup></sup></span>",
+            "dnd-none": "<span foreground='#c9c5c9'></span>",
+            "inhibited-notification": "<span foreground='#c9c5c9'></span><span foreground='white'><sup></sup></span>",
+            "inhibited-none": "<span foreground='#c9c5c9'></span>",
+            "dnd-inhibited-notification": "<span foreground='#c9c5c9'></span><span foreground='white'><sup></sup></span>",
+            "dnd-inhibited-none": "<span foreground='#c9c5c9'></span>"
+    },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%a, %d %b, %I:%M %p}"
+    },
+
+    "custom/weather": {
+    "format": "{}",
+    "tooltip": true,
+    "interval": 1800,
+    "exec": "~/.config/waybar/scripts/weather.sh ﻿10.341111111111, -67.040555555556",
+    "return-type": "json"
+    },
+
+    //***************************
+    //*     RIGHT MODULES    // *
+    //***************************
+
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "reverse-scrolling": 1,
+        "format": "{volume}%  {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "婢 {format_source}",
+        "format-source": "  {volume}%  <span foreground='#ffffff'></span>",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "<span foreground='#ffffff'></span>",
+            "hands-free": "<span foreground='#ffffff'></span>",
+            "headset": "<span foreground='#ffffff'></span>",
+            "phone": "<span foreground='#ffffff'></span>",
+            "portable": "<span foreground='#ffffff'></span>",
+            "car": "<span foreground='#ffffff'></span>",
+            "default": [
+                "<span foreground='#ffffff'>奄</span>",
+                "<span foreground='#ffffff'>奔</span>",
+                "<span foreground='#ffffff'>墳</span>",]
+        },
+        "on-click": "pavucontrol",
+        "min-length": 13,
+    },
+
+    "cpu": {
+        "format": "{usage}% {icon}",
+        "format-icons": "<span foreground='#ffffff'></span>",
+        "tooltip": true,
+        "fixed-center": true
+    },
+
+    "memory": {
+        "format": "{used}  {icon}",
+        "format-icons": "<span foreground='#ffffff'></span>",
+        "fixed-center": true
+    },
+
+    "temperature": {
+        "critical-threshold": 80,
+        "format-critical": "{temperatureC}°C {icon}",
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": [
+            "<span foreground='#ffffff'></span>",
+            "<span foreground='#ffffff'></span>",
+            "<span foreground='#ffffff'></span>",
+            "<span foreground='#ffffff'></span>",
+            "<span foreground='#ffffff'></span>",],
+        "tooltip": false,
+    },
+
+    "bluetooth": {
+        "format-on": "<span foreground='#ffffff'></span>",
+        "format-off": "BT-off",
+        "format-disabled": "<span foreground='#ffffff'>󰂲</span>",
+        "format-connected-battery": "{device_battery_percentage}% 󰂯",
+        "format-alt": "{device_alias} <span foreground='#ffffff'>󰂯</span>",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
+        "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
+        "on-click-right": "blueman-manager",
+    },
+
+    "network": {
+        "format-wifi": "<span foreground='#ffffff'></span>",
+        "format-ethernet":"<span foreground='#ffffff'></span>",
+        "format-disconnected": "<span foreground='#ffffff'></span>",
+        "tooltip-format-disconnected": "Error",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} 🖧 ",
+        "on-click": "kitty nmtui"
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 0
+    },
+}

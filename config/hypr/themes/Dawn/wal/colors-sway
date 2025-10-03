@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Dawn/wallpaper.jpg
+
+set $background #1f0f10
+set $foreground #c3aa97
+
+set $color0 #1f0f10
+set $color1 #6D452A
+set $color2 #9E201D
+set $color3 #E6211F
+set $color4 #F50E21
+set $color5 #A24820
+set $color6 #E35020
+set $color7 #c3aa97
+set $color8 #887669
+set $color9 #6D452A
+set $color10 #9E201D
+set $color11 #E6211F
+set $color12 #F50E21
+set $color13 #A24820
+set $color14 #E35020
+set $color15 #c3aa97

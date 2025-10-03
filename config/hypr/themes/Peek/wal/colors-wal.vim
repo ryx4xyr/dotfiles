@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Peek/wallpaper.png"
+let background = "#030510"
+let foreground = "#82cce1"
+let cursor     = "#82cce1"
+
+" Colors
+let color0  = "#030510"
+let color1  = "#65124C"
+let color2  = "#3D4E69"
+let color3  = "#B34452"
+let color4  = "#0655A2"
+let color5  = "#0959A7"
+let color6  = "#DF6C8B"
+let color7  = "#82cce1"
+let color8  = "#5b8e9d"
+let color9  = "#65124C"
+let color10 = "#3D4E69"
+let color11 = "#B34452"
+let color12 = "#0655A2"
+let color13 = "#0959A7"
+let color14 = "#DF6C8B"
+let color15 = "#82cce1"

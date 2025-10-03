@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Retro/wallpaper.png
+
+set $background #0d1011
+set $foreground #c5c0c1
+
+set $color0 #0d1011
+set $color1 #606063
+set $color2 #994037
+set $color3 #A27671
+set $color4 #9C8B6F
+set $color5 #42759A
+set $color6 #4896C3
+set $color7 #c5c0c1
+set $color8 #898687
+set $color9 #606063
+set $color10 #994037
+set $color11 #A27671
+set $color12 #9C8B6F
+set $color13 #42759A
+set $color14 #4896C3
+set $color15 #c5c0c1

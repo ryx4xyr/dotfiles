@@ -1,0 +1,261 @@
+* {
+    border: none;
+    border-radius: 0;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: Liberation Mono;
+    font-size: 11px;
+    font-weight: 500;
+    min-height: 18px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces {
+    margin-right: 5px;
+    padding: 1px;
+    /* padding-right: 2px; */
+    border-radius: 12px;
+    transition: all .3s ease;
+    background: linear-gradient(to right,
+    rgba(210, 40, 120, 0.7),
+    rgba(240, 60, 150, 0.6),
+    rgba(255, 100, 180, 0.5)
+    );
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#workspaces button {
+    color: #ffffff;
+    background: transparent;
+    padding: 1px 4px;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+#workspaces button.persistent {
+    color: #ffffff;
+    font-size: 12px;
+    transition: all .3s ease;
+}
+
+#workspaces button:hover {
+    transition: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    border-radius: inherit;
+    color: #f8a5ff;
+    background: rgba(97, 47, 78, 0.5);
+}
+
+#workspaces button.focused {
+    color: #f8a5ff;
+}
+
+#workspaces button.active {
+    font-weight: 700;
+    border-radius: 12px;
+    color: #f8a5ff;
+    background: rgba(97, 47, 78, 0.5);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+}
+
+#custom-mpris {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-left: 12px;
+    padding-right: 12px;
+    /* margin: 10px 0 5px 10px; separa del módulo anterior */
+    border-radius: 12px;
+    background: linear-gradient(to left,
+    rgba(210, 40, 120, 0.7),
+    rgba(240, 60, 150, 0.6),
+    rgba(255, 100, 180, 0.5)
+    );
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+    color: #ffffff;
+    transition: all .3s ease;
+}
+
+#custom-mpris:hover {
+    color: #f8a5ff;
+}
+
+#custom-notification {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: linear-gradient(to right,
+    rgba(210, 40, 120, 0.7),
+    rgba(240, 60, 150, 0.6),
+    rgba(255, 100, 180, 0.5)
+    );
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#custom-notification:hover {
+    color: #f8a5ff;
+}
+
+#clock {
+    padding-left: 16px;
+    padding-right: 12px;
+    border-radius: 12px 0px 0px 12px;
+    transition: none;
+    color: #ffffff;
+    background: rgba(255, 100, 180, 0.5);    
+    /* border-top: 1px solid rgba(255, 255, 255, 0.55);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    border-left: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#custom-weather {
+    padding-right: 16px;
+    border-radius: 0px 12px 12px 0px;
+    transition: none;
+    color: #ffffff;
+    background: linear-gradient(to left,
+    rgba(210, 40, 120, 0.7),
+    rgba(240, 60, 150, 0.6),
+    rgba(255, 100, 180, 0.5)
+    );
+    /* border-top: 1px solid rgba(255, 255, 255, 0.55);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    border-right: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#pulseaudio {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: linear-gradient(to right,
+    rgba(210, 40, 120, 0.7),
+    rgba(240, 60, 150, 0.6),
+    rgba(255, 100, 180, 0.5)
+    );
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#pulseaudio:hover {
+    color: #f8a5ff;
+}
+
+#pulseaudio.muted {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    transition: all .55s ease-in-out;
+    background: #2c2036;
+    color: #f8a5ff;
+}
+
+#cpu {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background:rgba(255, 100, 180, 0.5);
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#memory {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background:rgba(255, 100, 180, 0.5);
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#temperature {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;    
+    background:rgba(255, 100, 180, 0.5);
+    /* border: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#temperature.critical {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    background-color: #eb4d4b;
+}
+
+#bluetooth{
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px 0px 0px 12px;
+    transition: none;
+    color: #ffffff;
+    transition: all .3s ease;
+    background:rgba(255, 100, 180, 0.5);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.55);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    border-left: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#bluetooth:hover {
+    color: #f8a5ff;
+}
+
+#network{
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-right: 12px;
+    border-radius: 0px 12px 12px 0px;
+    transition: none;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: linear-gradient(to left,
+    rgba(210, 40, 120, 0.7),
+    rgba(240, 60, 150, 0.6),
+    rgba(255, 100, 180, 0.5)
+    );
+    /* border-top: 1px solid rgba(255, 255, 255, 0.55);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    border-right: 1px solid rgba(255, 255, 255, 0.55); */
+}
+
+#network:hover {
+    color: #f8a5ff;
+}
+
+#tray {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-left: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background:rgba(210, 40, 120, 0.7);
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+

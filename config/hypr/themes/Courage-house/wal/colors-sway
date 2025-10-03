@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/Imágenes/backgrounds/1369680.jpeg
+
+set $background #0d0416
+set $foreground #c39ed9
+
+set $color0 #0d0416
+set $color1 #6F2B8D
+set $color2 #692A96
+set $color3 #704AA1
+set $color4 #9B339F
+set $color5 #B0349C
+set $color6 #9B4FA7
+set $color7 #c39ed9
+set $color8 #886e97
+set $color9 #6F2B8D
+set $color10 #692A96
+set $color11 #704AA1
+set $color12 #9B339F
+set $color13 #B0349C
+set $color14 #9B4FA7
+set $color15 #c39ed9

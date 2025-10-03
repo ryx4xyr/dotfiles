@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/Imágenes/backgrounds/1378545.jpg"
+let background = "#100a21"
+let foreground = "#d9c1db"
+let cursor     = "#d9c1db"
+
+" Colors
+let color0  = "#100a21"
+let color1  = "#4E53B7"
+let color2  = "#6559B9"
+let color3  = "#7039C9"
+let color4  = "#6765C7"
+let color5  = "#9B66D3"
+let color6  = "#B960CA"
+let color7  = "#d9c1db"
+let color8  = "#978799"
+let color9  = "#4E53B7"
+let color10 = "#6559B9"
+let color11 = "#7039C9"
+let color12 = "#6765C7"
+let color13 = "#9B66D3"
+let color14 = "#B960CA"
+let color15 = "#d9c1db"

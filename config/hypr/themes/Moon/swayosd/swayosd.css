@@ -1,0 +1,52 @@
+window#osd {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.363);
+  background: linear-gradient(to right,
+  rgba(20, 24, 30, 0.8),
+  rgba(55, 65, 75, 0.7),
+  rgba(120, 130, 140, 0.6)
+  );
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35); */
+}
+
+window#osd #container {
+  margin: 8px;
+}
+
+window#osd label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #dddddd; /* foreground */
+}
+
+window#osd image {
+  margin-right: 10px;
+  color: #dddddd;
+}
+
+window#osd progressbar:disabled,
+window#osd image:disabled {
+  opacity: 0.4;
+}
+
+window#osd progressbar {
+  min-height: 4px;
+  border-radius: 6px;
+  background: transparent;
+  border: none;
+}
+
+window#osd trough {
+  min-height: inherit;
+  border-radius: inherit;
+  border: none;
+  background: rgba(241, 241, 241, 0.2); /* foreground con opacidad */
+}
+
+window#osd progress {
+  min-height: inherit;
+  border-radius: inherit;
+  border: none;
+  background: #dddddd; /* foreground */
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kry_/.config/hypr/themes/Retro/wallpaper.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1011",
+        "foreground": "#c5c0c1",
+        "cursor": "#c5c0c1"
+    },
+    "colors": {
+        "color0": "#0d1011",
+        "color1": "#606063",
+        "color2": "#994037",
+        "color3": "#A27671",
+        "color4": "#9C8B6F",
+        "color5": "#42759A",
+        "color6": "#4896C3",
+        "color7": "#c5c0c1",
+        "color8": "#898687",
+        "color9": "#606063",
+        "color10": "#994037",
+        "color11": "#A27671",
+        "color12": "#9C8B6F",
+        "color13": "#42759A",
+        "color14": "#4896C3",
+        "color15": "#c5c0c1"
+    }
+}

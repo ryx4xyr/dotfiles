@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Dawn/wallpaper.jpg"
+let background = "#1f0f10"
+let foreground = "#c3aa97"
+let cursor     = "#c3aa97"
+
+" Colors
+let color0  = "#1f0f10"
+let color1  = "#6D452A"
+let color2  = "#9E201D"
+let color3  = "#E6211F"
+let color4  = "#F50E21"
+let color5  = "#A24820"
+let color6  = "#E35020"
+let color7  = "#c3aa97"
+let color8  = "#887669"
+let color9  = "#6D452A"
+let color10 = "#9E201D"
+let color11 = "#E6211F"
+let color12 = "#F50E21"
+let color13 = "#A24820"
+let color14 = "#E35020"
+let color15 = "#c3aa97"

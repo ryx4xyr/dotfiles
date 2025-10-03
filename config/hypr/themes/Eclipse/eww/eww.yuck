@@ -1,0 +1,150 @@
+;; Variable global
+(defvar media_icon "🎵")
+
+;; Widget (DEFINIDO ANTES de la ventana)
+(defwidget media-overlay []
+  (box :class "media-overlay"
+    (label :text media_icon)
+  )
+)
+
+(defwindow media-overlay
+  :monitor 0
+  :anchor "bottom center"
+  :offset (geometry :x 0 :y 0)
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  :windowtype "utility"
+  :margin (geometry :bottom 60)
+  :geometry (geometry :x "376px"
+                      :y "-28px"
+                      :width "60px"
+                      :height "18px"
+                      :anchor "top right")
+  (media-overlay)
+)
+
+(defvar screenshot-path "")
+
+(defwindow screenshot-popup
+  :monitor 0
+  :geometry (geometry
+              :anchor "bottom left"
+              :x "20px" :y "20px"
+              :width "1px" :height "1px") ;; Sigue en 1px, Eww lo ajustará
+  :stacking "fg"
+  :windowtype "dialog"
+  :wm-ignore true
+
+  (box
+    :class "screenshot-popup"
+    :orientation "vertical"
+    :spacing 6
+    ;; Eliminamos :vexpand false del box principal aquí, 
+    ;; y lo manejaremos en los hijos si es necesario
+    :space-evenly false ;; Esto es clave: distribuye el espacio de manera proporcional, no equitativa.
+
+    ;; Contenedor para la imagen, con tamaño fijo o controlado
+    (box
+      :class "image-container"
+      :orientation "vertical"
+      :vexpand false ;; Este box no debe expandirse más allá del contenido de la imagen
+      :hexpand false ;; Asegurarse de que no se expanda horizontalmente tampoco
+      (image
+        :class "screenshot-image"
+        :path screenshot-path
+        :image-width 200
+        :image-height 120 ;; Definir una altura preferida para la imagen
+        :preserve-aspect-ratio true
+        :halign "center" ;; Centrar la imagen dentro de su contenedor si hay espacio extra
+        :valign "center" ))))
+
+;;(defwindow spotify_volume_up_osd
+;;  :monitor 0
+;;  :anchor "bottom center"
+;;  :offset (geometry :x 0 :y 0)
+;;  :stacking "fg"
+;;  :exclusive false
+;;  :focusable false
+;;  :windowtype "utility"
+;;  :geometry (geometry :x "376px"
+;;                      :y "-27px"
+;;                      :width "60px"
+;;                      :height "18px"
+;;                      :anchor "top right")
+;;  (box :class "spotify-osd-inner"
+;;    (image :path "/usr/share/icons/Papirus/16x16/apps/spotify.svg")
+;;    (label :text "+5%")
+;;  )
+;;)
+
+;;(defwindow spotify_volume_down_osd
+;;  :monitor 0
+;;  :anchor "bottom center"
+;;  :offset (geometry :x 0 :y 0)
+;;  :stacking "fg"
+;;  :exclusive false
+;;  :focusable false
+;;  :windowtype "utility"
+;;  :geometry (geometry :x "376px"
+;;                      :y "-27px"
+;;                      :width "60px"
+;;                      :height "18px"
+;;                      :anchor "top right")
+;;  (box :class "spotify-osd-inner"
+;;    (image :path "/usr/share/icons/Papirus/16x16/apps/spotify.svg")
+;;    (label :text "-5%")
+;;  )
+;;)
+
+;; --- Widget subir volumen ---
+(defwidget spotify_volume_up_osd_widget []
+  (box :class "spotify-osd-inner"
+    (image :path "/usr/share/icons/Papirus/16x16/apps/spotify.svg")
+    (label :text "+5%")
+  )
+)
+
+(defwindow spotify_volume_up_osd
+  :monitor 0
+  :anchor "bottom center"
+  :offset (geometry :x 0 :y 0)
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  :windowtype "utility"
+  :margin (geometry :bottom 60)
+  :geometry (geometry :x "376px"
+                      :y "-27px"
+                      :width "60px"
+                      :height "18px"
+                      :anchor "top right")
+  (spotify_volume_up_osd_widget)
+)
+
+;; --- Widget bajar volumen ---
+(defwidget spotify_volume_down_osd_widget []
+  (box :class "spotify-osd-inner"
+    (image :path "/usr/share/icons/Papirus/16x16/apps/spotify.svg")
+    (label :text "-5%")
+  )
+)
+
+(defwindow spotify_volume_down_osd
+  :monitor 0
+  :anchor "bottom center"
+  :offset (geometry :x 0 :y 0)
+  :stacking "fg"
+  :exclusive false
+  :focusable false
+  :windowtype "utility"
+  :margin (geometry :bottom 60)
+  :geometry (geometry :x "376px"
+                      :y "-27px"
+                      :width "60px"
+                      :height "18px"
+                      :anchor "top right")
+  (spotify_volume_down_osd_widget)
+)
+

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Solitude/wallpaper.jpg"
+let background = "#0a0f0f"
+let foreground = "#bfa794"
+let cursor     = "#bfa794"
+
+" Colors
+let color0  = "#0a0f0f"
+let color1  = "#433F3F"
+let color2  = "#59442F"
+let color3  = "#6C492D"
+let color4  = "#303B44"
+let color5  = "#3A434C"
+let color6  = "#5D4F4E"
+let color7  = "#bfa794"
+let color8  = "#857467"
+let color9  = "#433F3F"
+let color10 = "#59442F"
+let color11 = "#6C492D"
+let color12 = "#303B44"
+let color13 = "#3A434C"
+let color14 = "#5D4F4E"
+let color15 = "#bfa794"

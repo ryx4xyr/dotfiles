@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Solitude/wallpaper.jpg
+
+set $background #0a0f0f
+set $foreground #bfa794
+
+set $color0 #0a0f0f
+set $color1 #433F3F
+set $color2 #59442F
+set $color3 #6C492D
+set $color4 #303B44
+set $color5 #3A434C
+set $color6 #5D4F4E
+set $color7 #bfa794
+set $color8 #857467
+set $color9 #433F3F
+set $color10 #59442F
+set $color11 #6C492D
+set $color12 #303B44
+set $color13 #3A434C
+set $color14 #5D4F4E
+set $color15 #bfa794

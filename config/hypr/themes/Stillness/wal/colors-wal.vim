@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Stillness/wallpaper.png"
+let background = "#0b101b"
+let foreground = "#aab8d2"
+let cursor     = "#aab8d2"
+
+" Colors
+let color0  = "#0b101b"
+let color1  = "#2C4FA1"
+let color2  = "#2C6DBD"
+let color3  = "#5675B1"
+let color4  = "#2C76C1"
+let color5  = "#417DC0"
+let color6  = "#A17397"
+let color7  = "#aab8d2"
+let color8  = "#768093"
+let color9  = "#2C4FA1"
+let color10 = "#2C6DBD"
+let color11 = "#5675B1"
+let color12 = "#2C76C1"
+let color13 = "#417DC0"
+let color14 = "#A17397"
+let color15 = "#aab8d2"

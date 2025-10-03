@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Eclipse/wallpaper.jpg
+
+set $background #000D19
+set $foreground #cf9a9b
+
+set $color0 #000D19
+set $color1 #233A48
+set $color2 #4E3C48
+set $color3 #6F3D48
+set $color4 #60444B
+set $color5 #8A3E48
+set $color6 #91444A
+set $color7 #cf9a9b
+set $color8 #906b6c
+set $color9 #233A48
+set $color10 #4E3C48
+set $color11 #6F3D48
+set $color12 #60444B
+set $color13 #8A3E48
+set $color14 #91444A
+set $color15 #cf9a9b

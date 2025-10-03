@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kry_/.config/hypr/themes/Peek/wallpaper.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#030510",
+        "foreground": "#82cce1",
+        "cursor": "#82cce1"
+    },
+    "colors": {
+        "color0": "#030510",
+        "color1": "#65124C",
+        "color2": "#3D4E69",
+        "color3": "#B34452",
+        "color4": "#0655A2",
+        "color5": "#0959A7",
+        "color6": "#DF6C8B",
+        "color7": "#82cce1",
+        "color8": "#5b8e9d",
+        "color9": "#65124C",
+        "color10": "#3D4E69",
+        "color11": "#B34452",
+        "color12": "#0655A2",
+        "color13": "#0959A7",
+        "color14": "#DF6C8B",
+        "color15": "#82cce1"
+    }
+}

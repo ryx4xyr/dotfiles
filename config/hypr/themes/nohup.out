@@ -1,0 +1,292 @@
+[2025-07-16 15:17:43.096] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:17:43.146] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:17:43.146] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:17:43.157] [info] Hyprland IPC starting
+[2025-07-16 15:17:43.158] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:17:43.158] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 15:17:43.549] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 15:18:14.475] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:18:14.476] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:18:14.476] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:18:14.482] [info] Hyprland IPC starting
+[2025-07-16 15:18:14.483] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:18:14.483] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 15:18:14.652] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 15:18:48.209] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:18:48.210] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:18:48.210] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:18:48.216] [info] Hyprland IPC starting
+[2025-07-16 15:18:48.217] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:18:48.217] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 15:18:48.387] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 15:19:37.243] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:19:37.245] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:19:37.245] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:19:37.251] [info] Hyprland IPC starting
+[2025-07-16 15:19:37.252] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:19:37.252] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 15:19:37.431] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 15:20:26.435] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:20:26.437] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:20:26.437] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:20:26.442] [info] Hyprland IPC starting
+[2025-07-16 15:20:26.443] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:20:26.443] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 15:20:26.614] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 15:20:47.988] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:20:47.990] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:20:47.990] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:20:47.996] [info] Hyprland IPC starting
+[2025-07-16 15:20:47.996] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:20:47.996] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 15:20:48.171] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 15:28:25.023] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 15:28:25.025] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 15:28:25.025] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 15:28:25.030] [info] Hyprland IPC starting
+[2025-07-16 15:28:25.031] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 15:28:25.031] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 15:28:25.204] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:10:12.339] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 19:10:12.340] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:10:12.340] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 19:10:12.345] [info] Hyprland IPC starting
+[2025-07-16 19:10:12.346] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:10:12.346] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+
+(waybar:1502876): Gtk-WARNING **: 19:10:12.385: Failed to set text '<markup><span foreground="#c9c5c9"></span><span foreground="#white"><sup></sup></span></markup>' from markup due to error parsing markup: Value of 'foreground' attribute on <span> tag on line 1 could not be parsed; should be a color specification, not '#white'
+
+(waybar:1502876): Gtk-WARNING **: 19:10:12.491: Failed to set text '<markup><span foreground="#c9c5c9"></span><span foreground="#white"><sup></sup></span></markup>' from markup due to error parsing markup: Value of 'foreground' attribute on <span> tag on line 1 could not be parsed; should be a color specification, not '#white'
+[2025-07-16 19:10:12.512] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:11:00.206] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 19:11:00.207] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:11:00.207] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 19:11:00.213] [info] Hyprland IPC starting
+[2025-07-16 19:11:00.213] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:11:00.213] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:11:00.387] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:11:17.284] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 19:11:17.286] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:11:17.286] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 19:11:17.291] [info] Hyprland IPC starting
+[2025-07-16 19:11:17.292] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:11:17.292] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:11:17.468] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:12:07.034] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 19:12:07.035] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:12:07.035] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 19:12:07.041] [info] Hyprland IPC starting
+[2025-07-16 19:12:07.042] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:12:07.042] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 19:12:07.217] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:12:07.217] [error] Item '': No icon name or pixmap given.
+[2025-07-16 19:12:16.040] [info] Using configuration file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/config
+[2025-07-16 19:12:16.042] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:12:16.042] [info] Using CSS file /home/kry_/.config/hypr/themes/Dark-chasm/waybar/style.css
+[2025-07-16 19:12:16.047] [info] Hyprland IPC starting
+[2025-07-16 19:12:16.048] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:12:16.048] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 19:12:16.223] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:26:52.501] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:26:52.503] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:26:52.503] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:26:52.508] [info] Hyprland IPC starting
+[2025-07-16 19:26:52.509] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:26:52.509] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:26:52.681] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:26:52.681] [error] Item '': No icon name or pixmap given.
+[2025-07-16 19:27:24.724] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:27:24.725] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:27:24.725] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:27:24.731] [info] Hyprland IPC starting
+[2025-07-16 19:27:24.732] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:27:24.732] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 19:27:24.904] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:28:28.854] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:28:28.856] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:28:28.856] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:28:28.861] [info] Hyprland IPC starting
+[2025-07-16 19:28:28.862] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:28:28.862] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:28:29.034] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:28:44.288] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:28:44.290] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:28:44.290] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:28:44.295] [info] Hyprland IPC starting
+[2025-07-16 19:28:44.295] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:28:44.296] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:28:44.470] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:28:44.470] [error] Item '': No icon name or pixmap given.
+[2025-07-16 19:28:52.717] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:28:52.718] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:28:52.718] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:28:52.723] [info] Hyprland IPC starting
+[2025-07-16 19:28:52.724] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:28:52.724] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:28:52.896] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:29:32.357] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:29:32.359] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:29:32.359] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:29:32.364] [info] Hyprland IPC starting
+[2025-07-16 19:29:32.365] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:29:32.365] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 19:29:32.542] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:29:39.086] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:29:39.088] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:29:39.088] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:29:39.093] [info] Hyprland IPC starting
+[2025-07-16 19:29:39.094] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:29:39.094] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:29:39.270] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:30:12.765] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:30:12.767] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:30:12.767] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:30:12.771] [info] Hyprland IPC starting
+[2025-07-16 19:30:12.772] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:30:12.772] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:30:12.943] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:30:45.097] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:30:45.099] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:30:45.099] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:30:45.104] [info] Hyprland IPC starting
+[2025-07-16 19:30:45.105] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:30:45.105] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:30:45.277] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:31:05.527] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:31:05.529] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:31:05.529] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:31:05.534] [info] Hyprland IPC starting
+[2025-07-16 19:31:05.535] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:31:05.535] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:31:05.712] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:32:05.970] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:32:05.971] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:32:05.971] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:32:05.976] [info] Hyprland IPC starting
+[2025-07-16 19:32:05.977] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:32:05.977] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:32:06.150] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:32:14.478] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:32:14.480] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:32:14.480] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:32:14.485] [info] Hyprland IPC starting
+[2025-07-16 19:32:14.486] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:32:14.486] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:32:14.657] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:32:29.297] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:32:29.299] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:32:29.299] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:32:29.304] [info] Hyprland IPC starting
+[2025-07-16 19:32:29.305] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:32:29.305] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:32:29.480] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:32:47.200] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:32:47.201] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:32:47.201] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:32:47.207] [info] Hyprland IPC starting
+[2025-07-16 19:32:47.208] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:32:47.208] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:32:47.383] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:33:04.401] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:33:04.403] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:33:04.403] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:33:04.409] [info] Hyprland IPC starting
+[2025-07-16 19:33:04.410] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:33:04.410] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:33:04.586] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:33:44.980] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:33:44.981] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:33:44.981] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:33:44.986] [info] Hyprland IPC starting
+[2025-07-16 19:33:44.987] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:33:44.987] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:33:45.162] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:34:01.985] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:34:01.986] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:34:01.986] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:34:01.992] [info] Hyprland IPC starting
+[2025-07-16 19:34:01.993] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:34:01.993] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:34:02.163] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:35:35.437] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:35:35.438] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:35:35.438] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:35:35.445] [info] Hyprland IPC starting
+[2025-07-16 19:35:35.445] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:35:35.445] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:35:35.622] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:36:01.702] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:36:01.703] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:36:01.703] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:36:01.709] [info] Hyprland IPC starting
+[2025-07-16 19:36:01.709] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:36:01.709] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:36:01.884] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:36:01.884] [error] Item '': No icon name or pixmap given.
+[2025-07-16 19:36:43.606] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:36:43.607] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:36:43.607] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:36:43.612] [info] Hyprland IPC starting
+[2025-07-16 19:36:43.613] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:36:43.613] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:36:43.784] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:36:51.928] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:36:51.930] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:36:51.930] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:36:51.936] [info] Hyprland IPC starting
+[2025-07-16 19:36:51.937] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:36:51.937] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:36:52.125] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:37:40.012] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:37:40.014] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:37:40.014] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:37:40.019] [info] Hyprland IPC starting
+[2025-07-16 19:37:40.020] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:37:40.020] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:37:40.194] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:37:40.194] [error] Item '': No icon name or pixmap given.
+[2025-07-16 19:37:59.255] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:37:59.256] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:37:59.256] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:37:59.261] [info] Hyprland IPC starting
+[2025-07-16 19:37:59.262] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:37:59.262] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:37:59.437] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1
+[2025-07-16 19:38:06.219] [info] Using configuration file /home/kry_/.config/hypr/themes/Stillness/waybar/config
+[2025-07-16 19:38:06.220] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No existe la interfaz «org.freedesktop.portal.Settings» en el objeto en la ruta /org/freedesktop/portal/desktop
+[2025-07-16 19:38:06.220] [info] Using CSS file /home/kry_/.config/hypr/themes/Stillness/waybar/style.css
+[2025-07-16 19:38:06.226] [info] Hyprland IPC starting
+[2025-07-16 19:38:06.227] [info] Loading persistent workspaces from Waybar config
+[2025-07-16 19:38:06.227] [info] Loading persistent workspaces from Hyprland workspace rules
+Fontconfig warning: using without calling FcInit()
+[2025-07-16 19:38:06.400] [info] Bar configured (width: 1900, height: 28) for output: HDMI-A-1

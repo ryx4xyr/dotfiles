@@ -1,0 +1,21 @@
+set $wallpaper /home/kry_/.config/hypr/themes/Neon/wallpaper.jpg
+
+set $background #0a0406
+set $foreground #e4d2d7
+
+set $color0 #0a0406
+set $color1 #56425C
+set $color2 #9A1D1A
+set $color3 #C44750
+set $color4 #787089
+set $color5 #C96E95
+set $color6 #6CB1D2
+set $color7 #e4d2d7
+set $color8 #9f9396
+set $color9 #56425C
+set $color10 #9A1D1A
+set $color11 #C44750
+set $color12 #787089
+set $color13 #C96E95
+set $color14 #6CB1D2
+set $color15 #e4d2d7

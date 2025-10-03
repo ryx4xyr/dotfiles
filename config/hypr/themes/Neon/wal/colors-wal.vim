@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kry_/.config/hypr/themes/Neon/wallpaper.jpg"
+let background = "#0a0406"
+let foreground = "#e4d2d7"
+let cursor     = "#e4d2d7"
+
+" Colors
+let color0  = "#0a0406"
+let color1  = "#56425C"
+let color2  = "#9A1D1A"
+let color3  = "#C44750"
+let color4  = "#787089"
+let color5  = "#C96E95"
+let color6  = "#6CB1D2"
+let color7  = "#e4d2d7"
+let color8  = "#9f9396"
+let color9  = "#56425C"
+let color10 = "#9A1D1A"
+let color11 = "#C44750"
+let color12 = "#787089"
+let color13 = "#C96E95"
+let color14 = "#6CB1D2"
+let color15 = "#e4d2d7"

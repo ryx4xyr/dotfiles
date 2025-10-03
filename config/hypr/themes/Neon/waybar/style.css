@@ -1,0 +1,268 @@
+* {
+    border: none;
+    border-radius: 0;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: Liberation Mono;
+    font-size: 11px;
+    font-weight: 500;
+    min-height: 18px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces {    
+    margin-right: 5px;
+    padding: 1px;
+    /* padding-right: 2px; */
+    border-radius: 12px;
+    transition: all .3s ease;
+    background: linear-gradient(to right,
+    rgba(104, 25, 25, 0.5),
+    rgba(170, 49, 49, 0.6),
+    rgba(221, 78, 78, 0.5)
+    );
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#workspaces button {
+    color: #ffffff;
+    background: transparent;
+    padding: 1px 4px;
+    font-size: 18px;
+    transition: all .3s ease;
+}
+
+#workspaces button.persistent {
+    color: #ffffff;
+    font-size: 12px;
+    transition: all .3s ease;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+    transition: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    border-radius: inherit;
+    color: #eeff00;
+    background: rgb(189, 95, 99);
+}
+
+#workspaces button.focused {
+    color: #eeff00;
+}
+
+#workspaces button.active {
+    font-weight: 700;
+    border-radius: 12px;
+    color: #eeff00;
+    background: rgba(189, 95, 99, 0.5);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+}
+
+#custom-mpris {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-left: 12px;
+    padding-right: 12px;
+    /* margin: 10px 0 5px 10px; separa del módulo anterior */
+    border-radius: 12px;
+    background: linear-gradient(to left,
+    rgba(104, 25, 25, 0.5),
+    rgba(170, 49, 49, 0.6),
+    rgba(221, 78, 78, 0.5)
+    );
+    border: 1px solid rgba(240, 176, 176, 0.664);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+    color: #ffffff;
+    transition: all .3s ease;
+}
+
+#custom-mpris:hover {
+    color: #eeff00;
+}
+
+#custom-notification {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: linear-gradient(to right,
+    rgba(104, 25, 25, 0.5),
+    rgba(170, 49, 49, 0.6),
+    rgba(221, 78, 78, 0.5)
+    );
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#custom-notification:hover {
+    color: #eeff00;
+}
+
+#clock {
+    padding-left: 16px;
+    padding-right: 12px;
+    border-radius: 12px 0px 0px 12px;
+    transition: none;
+    color: #ffffff;
+    background: rgba(221, 78, 78, 0.5);    
+    border-top: 1px solid rgba(240, 176, 176, 0.664);
+    border-bottom: 1px solid rgba(240, 176, 176, 0.664);
+    border-left: 1px solid rgba(240, 176, 176, 0.664);
+    /* background: linear-gradient(to right,
+    rgba(96, 34, 150, 0.8),
+    rgba(114, 49, 170, 0.9),
+    rgba(157, 78, 221, 0.8)
+    ); */
+}
+
+#custom-weather {
+    padding-right: 16px;
+    border-radius: 0px 12px 12px 0px;
+    transition: none;
+    color: #ffffff;
+    background: linear-gradient(to left,
+    rgba(104, 25, 25, 0.5),
+    rgba(170, 49, 49, 0.6),
+    rgba(221, 78, 78, 0.5)
+    );
+    border-top: 1px solid rgba(240, 176, 176, 0.664);
+    border-bottom: 1px solid rgba(240, 176, 176, 0.664);
+    border-right: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#pulseaudio {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: linear-gradient(to right,
+    rgba(104, 25, 25, 0.5),
+    rgba(170, 49, 49, 0.6),
+    rgba(221, 78, 78, 0.5)
+    );
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#pulseaudio:hover {
+    color: #eeff00;
+}
+
+#pulseaudio.muted {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    transition: all .55s ease-in-out;
+    background: #2c2036;
+    color: #eeff00;
+}
+
+#cpu {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background: rgba(221, 78, 78, 0.5);
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#memory {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background: rgba(221, 78, 78, 0.5);
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#temperature {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-right: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;    
+    background: rgba(221, 78, 78, 0.5);
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#temperature.critical {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    background-color: #eb4d4b;
+}
+
+#bluetooth{
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px 0px 0px 12px;
+    transition: none;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: rgba(221, 78, 78, 0.5);
+    border-top: 1px solid rgba(240, 176, 176, 0.664);
+    border-bottom: 1px solid rgba(240, 176, 176, 0.664);
+    border-left: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#bluetooth:hover {
+    color: #eeff00;
+}
+
+#network{
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-right: 12px;
+    border-radius: 0px 12px 12px 0px;
+    transition: none;
+    color: #ffffff;
+    transition: all .3s ease;
+    background: linear-gradient(to left,
+    rgba(104, 25, 25, 0.5),
+    rgba(170, 49, 49, 0.6),
+    rgba(221, 78, 78, 0.5)
+    );
+    border-top: 1px solid rgba(240, 176, 176, 0.664);
+    border-bottom: 1px solid rgba(240, 176, 176, 0.664);
+    border-right: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+#network:hover {
+    color: #eeff00;
+}
+
+#tray {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    margin-left: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background: rgba(221, 78, 78, 0.5);
+    border: 1px solid rgba(240, 176, 176, 0.664);
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+

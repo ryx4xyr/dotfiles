@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kry_/.config/hypr/themes/Stillness/wallpaper.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0b101b",
+        "foreground": "#aab8d2",
+        "cursor": "#aab8d2"
+    },
+    "colors": {
+        "color0": "#0b101b",
+        "color1": "#2C4FA1",
+        "color2": "#2C6DBD",
+        "color3": "#5675B1",
+        "color4": "#2C76C1",
+        "color5": "#417DC0",
+        "color6": "#A17397",
+        "color7": "#aab8d2",
+        "color8": "#768093",
+        "color9": "#2C4FA1",
+        "color10": "#2C6DBD",
+        "color11": "#5675B1",
+        "color12": "#2C76C1",
+        "color13": "#417DC0",
+        "color14": "#A17397",
+        "color15": "#aab8d2"
+    }
+}
