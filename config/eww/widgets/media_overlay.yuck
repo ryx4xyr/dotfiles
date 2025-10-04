@@ -1,0 +1,5 @@
+(defwidget media-overlay []
+  (box :class "media-overlay"
+    (label :text media_icon)
+  )
+)

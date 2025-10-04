@@ -1,0 +1,624 @@
+** Message: 13:53:04.268: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:53:04.269: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:53:04.270: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:53:04.281: factory.vala:47: Loading widget: mpris
+** Message: 13:53:04.281: factory.vala:47: Loading widget: title
+** Message: 13:53:04.282: factory.vala:47: Loading widget: volume
+
+** (swaync:831740): WARNING **: 13:53:04.282: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:53:04.283: factory.vala:47: Loading widget: backlight
+** Message: 13:53:04.284: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:831740): CRITICAL **: 13:53:05.455: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:53:39.593: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:53:39.595: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+** (swaync:831740): CRITICAL **: 13:53:40.892: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:53:44.401: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:53:44.401: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:53:44.402: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:53:44.414: factory.vala:47: Loading widget: mpris
+** Message: 13:53:44.414: factory.vala:47: Loading widget: title
+** Message: 13:53:44.414: factory.vala:47: Loading widget: volume
+
+** (swaync:832639): WARNING **: 13:53:44.414: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:53:44.415: factory.vala:47: Loading widget: backlight
+** Message: 13:53:44.416: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:832639): CRITICAL **: 13:53:45.067: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:54:02.417: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:54:02.417: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:54:02.430: factory.vala:47: Loading widget: mpris
+** Message: 13:54:02.430: factory.vala:47: Loading widget: title
+** Message: 13:54:02.430: factory.vala:47: Loading widget: volume
+
+** (swaync:832639): WARNING **: 13:54:02.430: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:54:02.431: factory.vala:47: Loading widget: backlight
+** Message: 13:54:02.432: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:832639): CRITICAL **: 13:54:03.398: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:54:22.788: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:54:22.788: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+
+(swaync:832639): GLib-GObject-CRITICAL **: 13:54:22.788: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+** Message: 13:54:22.802: factory.vala:47: Loading widget: mpris
+** Message: 13:54:22.803: factory.vala:47: Loading widget: title
+** Message: 13:54:22.803: factory.vala:47: Loading widget: volume
+
+** (swaync:832639): WARNING **: 13:54:22.803: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:54:22.805: factory.vala:47: Loading widget: backlight
+** Message: 13:54:22.806: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:832639): CRITICAL **: 13:54:23.920: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:54:25.984: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:54:25.985: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:54:25.988: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:54:26.097: factory.vala:47: Loading widget: mpris
+** Message: 13:54:26.097: factory.vala:47: Loading widget: title
+** Message: 13:54:26.098: factory.vala:47: Loading widget: volume
+
+** (swaync:833603): WARNING **: 13:54:26.098: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:54:26.101: factory.vala:47: Loading widget: backlight
+** Message: 13:54:26.102: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:833603): CRITICAL **: 13:54:26.415: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:54:37.355: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:54:37.355: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:54:37.365: factory.vala:47: Loading widget: mpris
+** Message: 13:54:37.365: factory.vala:47: Loading widget: title
+** Message: 13:54:37.365: factory.vala:47: Loading widget: volume
+
+** (swaync:833603): WARNING **: 13:54:37.365: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:54:37.366: factory.vala:47: Loading widget: backlight
+** Message: 13:54:37.367: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:833603): CRITICAL **: 13:54:38.070: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:55:17.931: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:55:17.931: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+
+(swaync:833603): GLib-GObject-CRITICAL **: 13:55:17.931: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+** Message: 13:55:17.946: factory.vala:47: Loading widget: mpris
+** Message: 13:55:17.946: factory.vala:47: Loading widget: title
+** Message: 13:55:17.946: factory.vala:47: Loading widget: volume
+
+** (swaync:833603): WARNING **: 13:55:17.946: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:55:17.948: factory.vala:47: Loading widget: backlight
+** Message: 13:55:17.948: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:833603): CRITICAL **: 13:55:18.504: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:55:30.741: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:55:30.741: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:55:34.575: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:55:34.576: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:55:34.577: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:55:34.588: factory.vala:47: Loading widget: mpris
+** Message: 13:55:34.588: factory.vala:47: Loading widget: title
+** Message: 13:55:34.588: factory.vala:47: Loading widget: volume
+
+** (swaync:835126): WARNING **: 13:55:34.588: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:55:34.589: factory.vala:47: Loading widget: backlight
+** Message: 13:55:34.590: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:835126): CRITICAL **: 13:55:35.537: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:835126): CRITICAL **: 13:55:39.517: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:56:08.812: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:56:08.812: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:56:08.820: factory.vala:47: Loading widget: mpris
+** Message: 13:56:08.821: factory.vala:47: Loading widget: title
+** Message: 13:56:08.821: factory.vala:47: Loading widget: volume
+
+** (swaync:835126): WARNING **: 13:56:08.821: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:56:08.822: factory.vala:47: Loading widget: backlight
+** Message: 13:56:08.822: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:835126): CRITICAL **: 13:56:09.413: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:835126): CRITICAL **: 13:56:55.249: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:57:02.481: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:57:02.481: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+
+(swaync:835126): GLib-GObject-CRITICAL **: 13:57:02.482: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+** Message: 13:57:02.496: factory.vala:47: Loading widget: mpris
+** Message: 13:57:02.496: factory.vala:47: Loading widget: title
+** Message: 13:57:02.497: factory.vala:47: Loading widget: volume
+
+** (swaync:835126): WARNING **: 13:57:02.497: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:57:02.498: factory.vala:47: Loading widget: backlight
+** Message: 13:57:02.499: factory.vala:47: Loading widget: buttons-grid
+** Message: 13:57:06.781: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:57:06.783: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+** (swaync:835126): CRITICAL **: 13:57:07.887: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:57:12.794: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:57:12.794: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:57:12.795: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:57:12.807: factory.vala:47: Loading widget: mpris
+** Message: 13:57:12.807: factory.vala:47: Loading widget: title
+** Message: 13:57:12.807: factory.vala:47: Loading widget: volume
+
+** (swaync:837456): WARNING **: 13:57:12.807: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:57:12.808: factory.vala:47: Loading widget: backlight
+** Message: 13:57:12.809: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:837456): CRITICAL **: 13:57:13.384: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:57:36.306: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:57:36.308: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+** (swaync:837456): CRITICAL **: 13:57:37.046: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:837456): CRITICAL **: 13:57:43.701: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:837456): CRITICAL **: 13:58:00.297: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** Message: 13:58:16.142: swayncDaemon.vala:172: Reloading config
+
+** Message: 13:58:16.142: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:58:16.157: factory.vala:47: Loading widget: mpris
+** Message: 13:58:16.157: factory.vala:47: Loading widget: title
+** Message: 13:58:16.157: factory.vala:47: Loading widget: volume
+
+** (swaync:837456): WARNING **: 13:58:16.157: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:58:16.159: factory.vala:47: Loading widget: backlight
+** Message: 13:58:16.159: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:837456): CRITICAL **: 13:58:16.834: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:58:19.067: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:58:19.068: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:58:19.068: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:58:19.080: factory.vala:47: Loading widget: mpris
+** Message: 13:58:19.080: factory.vala:47: Loading widget: title
+** Message: 13:58:19.080: factory.vala:47: Loading widget: volume
+
+** (swaync:838959): WARNING **: 13:58:19.081: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:58:19.082: factory.vala:47: Loading widget: backlight
+** Message: 13:58:19.082: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:838959): CRITICAL **: 13:58:19.601: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:58:41.283: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:58:41.284: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:58:41.285: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:58:41.296: factory.vala:47: Loading widget: mpris
+** Message: 13:58:41.296: factory.vala:47: Loading widget: title
+** Message: 13:58:41.297: factory.vala:47: Loading widget: volume
+
+** (swaync:839457): WARNING **: 13:58:41.297: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:58:41.298: factory.vala:47: Loading widget: backlight
+** Message: 13:58:41.299: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:839457): CRITICAL **: 13:58:41.750: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:59:06.614: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:59:06.615: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:59:06.616: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:59:06.628: factory.vala:47: Loading widget: mpris
+** Message: 13:59:06.628: factory.vala:47: Loading widget: title
+** Message: 13:59:06.628: factory.vala:47: Loading widget: volume
+
+** (swaync:840024): WARNING **: 13:59:06.628: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:59:06.629: factory.vala:47: Loading widget: backlight
+** Message: 13:59:06.630: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:840024): CRITICAL **: 13:59:06.971: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:59:40.631: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 13:59:40.631: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 13:59:40.632: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 13:59:40.643: factory.vala:47: Loading widget: mpris
+** Message: 13:59:40.643: factory.vala:47: Loading widget: title
+** Message: 13:59:40.644: factory.vala:47: Loading widget: volume
+
+** (swaync:840797): WARNING **: 13:59:40.644: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 13:59:40.645: factory.vala:47: Loading widget: backlight
+** Message: 13:59:40.646: factory.vala:47: Loading widget: buttons-grid
+
+** (swaync:840797): CRITICAL **: 13:59:40.992: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:00:13.639: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+
+** (swaync:841523): CRITICAL **: 14:00:13.639: configModel.vala:352: /home/kry_/.config/swaync/config.json:37:5: Error al analizr: unexpected character `#', expected character `]'
+** Message: 14:00:13.639: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:00:13.640: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+** (swaync:841523): CRITICAL **: 14:00:13.644: baseWidget.vala:48: title: Config not found! Using default config...
+
+** Message: 14:00:13.645: factory.vala:47: Loading widget: title
+
+** (swaync:841523): CRITICAL **: 14:00:13.645: baseWidget.vala:48: dnd: Config not found! Using default config...
+
+** Message: 14:00:13.645: factory.vala:47: Loading widget: dnd
+** Message: 14:00:37.883: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:00:37.883: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:00:37.884: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:00:37.896: factory.vala:47: Loading widget: mpris
+** Message: 14:00:37.896: factory.vala:47: Loading widget: title
+** Message: 14:00:37.897: factory.vala:47: Loading widget: volume
+
+** (swaync:842065): WARNING **: 14:00:37.897: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:00:37.898: factory.vala:47: Loading widget: backlight
+
+** (swaync:842065): CRITICAL **: 14:00:38.325: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:842065): CRITICAL **: 14:00:49.137: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:842065): CRITICAL **: 14:00:53.070: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:01:10.417: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:01:10.418: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:01:10.419: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:01:10.431: factory.vala:47: Loading widget: mpris
+** Message: 14:01:10.431: factory.vala:47: Loading widget: title
+** Message: 14:01:10.431: factory.vala:47: Loading widget: volume
+
+** (swaync:842802): WARNING **: 14:01:10.432: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:01:10.433: factory.vala:47: Loading widget: backlight
+
+** (swaync:842802): CRITICAL **: 14:01:10.781: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:01:54.353: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:01:54.353: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:01:54.354: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:01:54.366: factory.vala:47: Loading widget: mpris
+** Message: 14:01:54.366: factory.vala:47: Loading widget: title
+** Message: 14:01:54.367: factory.vala:47: Loading widget: volume
+
+** (swaync:843787): WARNING **: 14:01:54.367: backlightUtil.vala:41: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:01:54.368: factory.vala:47: Loading widget: backlight
+
+** (swaync:843787): CRITICAL **: 14:01:54.730: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:843787): CRITICAL **: 14:02:15.147: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+
+** (swaync:843787): CRITICAL **: 14:02:18.936: backlightUtil.vala:62: Could not find device /sys/class/backlight/intel_backlight/brightness
+
+** Message: 14:02:58.747: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:02:58.748: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:02:58.749: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:02:58.760: factory.vala:47: Loading widget: mpris
+** Message: 14:02:58.761: factory.vala:47: Loading widget: title
+** Message: 14:02:58.761: factory.vala:47: Loading widget: volume
+
+** (swaync:845231): CRITICAL **: 14:02:58.761: baseWidget.vala:48: backlight: Config not found! Using default config...
+
+
+(swaync:845231): GLib-GObject-CRITICAL **: 14:02:58.761: invalid (NULL) pointer instance
+
+(swaync:845231): GLib-GObject-CRITICAL **: 14:02:58.761: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+** Message: 14:02:58.761: factory.vala:47: Loading widget: backlight
+
+** (swaync:845231): CRITICAL **: 14:02:59.224: sway_notification_center_widgets_backlight_util_start: assertion 'SWAY_NOTIFICATION_CENTER_WIDGETS_IS_BACKLIGHT_UTIL (self)' failed
+
+** (swaync:845231): CRITICAL **: 14:03:02.509: sway_notification_center_widgets_backlight_util_close: assertion 'SWAY_NOTIFICATION_CENTER_WIDGETS_IS_BACKLIGHT_UTIL (self)' failed
+** Message: 14:03:15.932: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:03:15.932: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:03:15.933: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:03:15.945: factory.vala:47: Loading widget: mpris
+** Message: 14:03:15.945: factory.vala:47: Loading widget: title
+** Message: 14:03:15.946: factory.vala:47: Loading widget: volume
+** Message: 14:04:33.177: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:04:33.177: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:04:33.178: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:04:33.190: factory.vala:47: Loading widget: mpris
+** Message: 14:04:33.190: factory.vala:47: Loading widget: title
+** Message: 14:04:33.190: factory.vala:47: Loading widget: volume
+** Message: 14:05:49.573: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:05:49.573: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:05:49.574: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:05:49.586: factory.vala:47: Loading widget: mpris
+** Message: 14:05:49.586: factory.vala:47: Loading widget: title
+** Message: 14:05:49.586: factory.vala:47: Loading widget: volume
+** Message: 14:06:52.898: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:06:52.898: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:06:52.899: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:07:06.327: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:07:06.328: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:07:06.329: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:07:17.800: factory.vala:47: Loading widget: mpris
+** Message: 14:07:17.800: factory.vala:47: Loading widget: title
+** Message: 14:07:17.801: factory.vala:47: Loading widget: volume
+** Message: 14:07:41.713: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:07:41.714: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:07:41.714: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:07:41.726: factory.vala:47: Loading widget: mpris
+** Message: 14:07:41.726: factory.vala:47: Loading widget: title
+** Message: 14:07:41.727: factory.vala:47: Loading widget: volume
+** Message: 14:08:28.609: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:08:28.609: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:08:28.610: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:08:28.622: factory.vala:47: Loading widget: mpris
+** Message: 14:08:28.622: factory.vala:47: Loading widget: title
+** Message: 14:08:28.623: factory.vala:47: Loading widget: volume
+** Message: 14:09:57.918: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:09:57.919: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:09:57.920: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:09:57.931: factory.vala:47: Loading widget: mpris
+** Message: 14:09:57.931: factory.vala:47: Loading widget: title
+** Message: 14:09:57.931: factory.vala:47: Loading widget: volume
+** Message: 14:11:31.035: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:11:31.035: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:11:31.036: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:11:31.047: factory.vala:47: Loading widget: mpris
+** Message: 14:11:31.048: factory.vala:47: Loading widget: title
+** Message: 14:11:31.048: factory.vala:47: Loading widget: volume
+** Message: 14:12:14.796: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:12:14.796: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:12:14.797: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:12:14.808: factory.vala:47: Loading widget: mpris
+** Message: 14:12:14.809: factory.vala:47: Loading widget: title
+** Message: 14:12:14.809: factory.vala:47: Loading widget: volume
+** Message: 14:13:38.057: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:13:38.057: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:13:38.058: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:13:38.070: factory.vala:47: Loading widget: mpris
+** Message: 14:13:38.070: factory.vala:47: Loading widget: title
+** Message: 14:13:38.071: factory.vala:47: Loading widget: volume
+** Message: 14:14:34.043: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:14:34.044: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:14:34.044: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+(swaync:861210): Gtk-WARNING **: 14:14:34.045: Theme parser error: style.css:121:3-9: No property named "height"
+
+(swaync:861210): Gtk-WARNING **: 14:14:34.045: Theme parser warning: style.css:121:3-122:1: Expected ';' at end of block
+** Message: 14:14:34.056: factory.vala:47: Loading widget: mpris
+** Message: 14:14:34.056: factory.vala:47: Loading widget: title
+** Message: 14:14:34.056: factory.vala:47: Loading widget: volume
+** Message: 14:14:49.468: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:14:49.469: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:14:49.470: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+(swaync:861573): Gtk-WARNING **: 14:14:49.470: Theme parser error: style.css:121:3-9: No property named "height"
+** Message: 14:14:49.481: factory.vala:47: Loading widget: mpris
+** Message: 14:14:49.481: factory.vala:47: Loading widget: title
+** Message: 14:14:49.481: factory.vala:47: Loading widget: volume
+** Message: 14:15:18.444: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:15:18.444: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:15:18.445: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+(swaync:862205): Gtk-WARNING **: 14:15:18.445: Theme parser error: style.css:120:3-9: No property named "height"
+** Message: 14:15:18.456: factory.vala:47: Loading widget: mpris
+** Message: 14:15:18.456: factory.vala:47: Loading widget: title
+** Message: 14:15:18.457: factory.vala:47: Loading widget: volume
+** Message: 14:15:40.911: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:15:40.911: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:15:40.912: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:15:40.924: factory.vala:47: Loading widget: mpris
+** Message: 14:15:40.924: factory.vala:47: Loading widget: title
+** Message: 14:15:40.924: factory.vala:47: Loading widget: volume
+** Message: 14:16:26.486: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:16:26.486: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:16:26.487: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:16:26.498: factory.vala:47: Loading widget: mpris
+** Message: 14:16:26.498: factory.vala:47: Loading widget: title
+** Message: 14:16:26.499: factory.vala:47: Loading widget: volume
+** Message: 14:16:41.686: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:16:41.687: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:16:41.688: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:16:41.701: factory.vala:47: Loading widget: mpris
+** Message: 14:16:41.701: factory.vala:47: Loading widget: title
+** Message: 14:16:41.701: factory.vala:47: Loading widget: volume
+** Message: 14:17:19.338: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:17:19.338: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:17:19.339: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:17:19.351: factory.vala:47: Loading widget: mpris
+** Message: 14:17:19.351: factory.vala:47: Loading widget: title
+** Message: 14:17:19.351: factory.vala:47: Loading widget: volume
+** Message: 14:19:08.596: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:19:08.597: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:19:08.598: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:19:08.609: factory.vala:47: Loading widget: mpris
+** Message: 14:19:08.609: factory.vala:47: Loading widget: title
+** Message: 14:19:08.610: factory.vala:47: Loading widget: volume
+** Message: 14:19:22.524: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:19:22.524: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:19:22.525: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+(swaync:868048): Gtk-WARNING **: 14:19:22.526: Theme parser error: style.css:115:3-8: No property named "width"
+
+(swaync:868048): Gtk-WARNING **: 14:19:22.526: Theme parser error: style.css:116:3-9: No property named "height"
+** Message: 14:19:22.537: factory.vala:47: Loading widget: mpris
+** Message: 14:19:22.537: factory.vala:47: Loading widget: title
+** Message: 14:19:22.538: factory.vala:47: Loading widget: volume
+** Message: 14:20:40.726: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:20:40.727: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:20:40.728: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:20:40.739: factory.vala:47: Loading widget: mpris
+** Message: 14:20:40.739: factory.vala:47: Loading widget: title
+** Message: 14:20:40.739: factory.vala:47: Loading widget: volume
+** Message: 14:21:36.513: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:21:36.513: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:21:36.514: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+
+(swaync:871173): Gtk-WARNING **: 14:21:36.515: Theme parser error: style.css:103:3-8: No property named "width"
+
+(swaync:871173): Gtk-WARNING **: 14:21:36.515: Theme parser error: style.css:104:3-9: No property named "height"
+** Message: 14:21:36.526: factory.vala:47: Loading widget: mpris
+** Message: 14:21:36.526: factory.vala:47: Loading widget: title
+** Message: 14:21:36.527: factory.vala:47: Loading widget: volume
+** Message: 14:26:40.981: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:26:40.981: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:26:40.982: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:26:40.993: factory.vala:47: Loading widget: mpris
+** Message: 14:26:40.993: factory.vala:47: Loading widget: title
+** Message: 14:26:40.994: factory.vala:47: Loading widget: volume
+** Message: 14:27:00.743: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:27:00.743: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:27:00.744: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:27:00.755: factory.vala:47: Loading widget: mpris
+** Message: 14:27:00.755: factory.vala:47: Loading widget: title
+** Message: 14:27:00.756: factory.vala:47: Loading widget: volume
+** Message: 14:27:42.481: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:27:42.481: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:27:42.482: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:27:42.493: factory.vala:47: Loading widget: mpris
+** Message: 14:27:42.494: factory.vala:47: Loading widget: title
+** Message: 14:27:42.494: factory.vala:47: Loading widget: volume
+** Message: 14:28:35.343: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:28:35.344: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:28:35.344: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:28:35.358: factory.vala:47: Loading widget: mpris
+** Message: 14:28:35.359: factory.vala:47: Loading widget: title
+** Message: 14:28:35.359: factory.vala:47: Loading widget: volume
+** Message: 14:28:53.266: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:28:53.266: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:28:53.267: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:28:53.278: factory.vala:47: Loading widget: mpris
+** Message: 14:28:53.278: factory.vala:47: Loading widget: title
+** Message: 14:28:53.279: factory.vala:47: Loading widget: volume
+** Message: 14:29:14.214: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:29:14.215: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:29:14.215: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:29:14.227: factory.vala:47: Loading widget: mpris
+** Message: 14:29:14.227: factory.vala:47: Loading widget: title
+** Message: 14:29:14.228: factory.vala:47: Loading widget: volume
+** Message: 14:29:31.346: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:29:31.347: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:29:31.347: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:29:31.359: factory.vala:47: Loading widget: mpris
+** Message: 14:29:31.359: factory.vala:47: Loading widget: title
+** Message: 14:29:31.359: factory.vala:47: Loading widget: volume
+** Message: 14:30:17.629: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:30:17.629: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:30:17.630: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:30:17.642: factory.vala:47: Loading widget: mpris
+** Message: 14:30:17.642: factory.vala:47: Loading widget: title
+** Message: 14:30:17.642: factory.vala:47: Loading widget: volume
+** Message: 14:30:33.681: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:30:33.682: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:30:33.682: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:30:33.694: factory.vala:47: Loading widget: mpris
+** Message: 14:30:33.695: factory.vala:47: Loading widget: title
+** Message: 14:30:33.695: factory.vala:47: Loading widget: volume
+** Message: 14:31:12.276: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:31:12.276: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:31:12.277: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:31:12.288: factory.vala:47: Loading widget: mpris
+** Message: 14:31:12.288: factory.vala:47: Loading widget: title
+** Message: 14:31:12.289: factory.vala:47: Loading widget: volume
+** Message: 14:32:24.579: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 14:32:24.579: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 14:32:24.580: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 14:32:24.591: factory.vala:47: Loading widget: mpris
+** Message: 14:32:24.592: factory.vala:47: Loading widget: title
+** Message: 14:32:24.592: factory.vala:47: Loading widget: volume
+** Message: 15:02:12.308: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:02:12.308: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:02:12.309: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:02:12.318: factory.vala:47: Loading widget: mpris
+** Message: 15:02:12.318: factory.vala:47: Loading widget: title
+** Message: 15:02:12.318: factory.vala:47: Loading widget: volume
+** Message: 15:02:25.509: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:02:25.510: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:02:25.511: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:02:25.519: factory.vala:47: Loading widget: mpris
+** Message: 15:02:25.520: factory.vala:47: Loading widget: title
+** Message: 15:02:25.520: factory.vala:47: Loading widget: volume
+** Message: 15:02:41.431: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:02:41.431: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:02:41.432: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:02:41.441: factory.vala:47: Loading widget: mpris
+** Message: 15:02:41.441: factory.vala:47: Loading widget: title
+** Message: 15:02:41.441: factory.vala:47: Loading widget: volume
+** Message: 15:02:55.619: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:02:55.619: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:02:55.620: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:02:55.629: factory.vala:47: Loading widget: mpris
+** Message: 15:02:55.629: factory.vala:47: Loading widget: title
+** Message: 15:02:55.629: factory.vala:47: Loading widget: volume
+** Message: 15:03:29.787: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:03:29.787: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:03:29.788: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:03:29.797: factory.vala:47: Loading widget: mpris
+** Message: 15:03:29.797: factory.vala:47: Loading widget: title
+** Message: 15:03:29.798: factory.vala:47: Loading widget: volume
+** Message: 15:04:46.633: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:04:46.633: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:04:46.634: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:04:46.642: factory.vala:47: Loading widget: mpris
+** Message: 15:04:46.643: factory.vala:47: Loading widget: title
+** Message: 15:04:46.643: factory.vala:47: Loading widget: volume
+** Message: 15:05:04.292: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:05:04.292: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:05:04.293: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:05:04.302: factory.vala:47: Loading widget: mpris
+** Message: 15:05:04.302: factory.vala:47: Loading widget: title
+** Message: 15:05:04.302: factory.vala:47: Loading widget: volume
+** Message: 15:05:20.114: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:05:20.115: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:05:20.115: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:05:20.124: factory.vala:47: Loading widget: mpris
+** Message: 15:05:20.125: factory.vala:47: Loading widget: title
+** Message: 15:05:20.125: factory.vala:47: Loading widget: volume
+** Message: 15:08:04.907: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:08:04.907: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:08:04.908: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:08:04.917: factory.vala:47: Loading widget: mpris
+** Message: 15:08:04.918: factory.vala:47: Loading widget: title
+** Message: 15:08:04.918: factory.vala:47: Loading widget: volume
+** Message: 15:08:19.376: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:08:19.376: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:08:19.377: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:08:19.385: factory.vala:47: Loading widget: mpris
+** Message: 15:08:19.385: factory.vala:47: Loading widget: title
+** Message: 15:08:19.386: factory.vala:47: Loading widget: volume
+** Message: 15:08:29.747: configModel.vala:331: Loading Config: "/home/kry_/.config/swaync/config.json"
+** Message: 15:08:29.747: functions.vala:84: Loading CSS: "/etc/xdg/swaync/style.css"
+** Message: 15:08:29.748: functions.vala:97: Loading CSS: "/home/kry_/.config/swaync/style.css"
+** Message: 15:08:29.757: factory.vala:47: Loading widget: mpris
+** Message: 15:08:29.757: factory.vala:47: Loading widget: title
+** Message: 15:08:29.757: factory.vala:47: Loading widget: volume
