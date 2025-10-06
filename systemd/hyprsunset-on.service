@@ -1,0 +1,10 @@
+[Unit]
+Description=Notificacion de activacion de hyprsunset
+
+[Service]
+Type=oneshot
+Environment="DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/%U/bus"
+ExecStart=/usr/bin/notify-send -a "Hyprsunset" -i "weather-clear-night" "Hyprsunset" "Filtro de luz azul: activado (3800K)"
+
+[Install]
+WantedBy=graphical-session.target

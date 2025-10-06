@@ -1,0 +1,9 @@
+[Unit]
+Description=Temporizador para desactivar la notificacion de hyprsunset
+
+[Timer]
+OnCalendar=*-*-* 07:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

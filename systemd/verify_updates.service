@@ -1,0 +1,6 @@
+[Unit]
+Description=Verificar actualizaciones con yay
+
+[Service]
+Type=oneshot
+ExecStart=/home/kry_/.config/scripts/verify_updates.sh

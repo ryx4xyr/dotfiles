@@ -1,0 +1,13 @@
+[Unit]
+Description=Ejecutar script de verificación de actualizaciones dos veces al día
+Requires=verify_updates.service
+
+[Timer]
+# Ejecutar a las 9 AM
+OnCalendar=*-*-* 09:00:00
+
+# Y a las 6 PM
+OnCalendar=*-*-* 18:00:00
+
+[Install]
+WantedBy=timers.target

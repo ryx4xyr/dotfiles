@@ -1,0 +1,13 @@
+[Unit]
+Description=xremap
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/xremap --watch ~/.xremap.yaml
+Restart=on-failure
+Environment="WAYLAND_DISPLAY=wayland-0"
+Environment="XDG_SESSION_TYPE=wayland"
+Environment="DISPLAY=:1"
+
+[Install]
+WantedBy=default.target
