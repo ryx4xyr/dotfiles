@@ -16,22 +16,19 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-#workspaces {    
+#workspaces {
     margin-right: 5px;
-    padding: 1px;
+    padding: 0px;
     /* padding-right: 2px; */
-    border-radius: 12px;
+    border-radius: 8px;
     transition: all .3s ease;
-    background: linear-gradient(to right,
-    rgba(55, 87, 63, 0.9),
-    rgba(39, 104, 44, 0.8),
-    rgba(57, 148, 84, 0.7)
-    );
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    background: rgb(106, 127, 161);
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #workspaces button {
-    color: #ffffff;
+    color: #B6B8B7;
+    font-weight: 500;
     background: transparent;
     padding: 1px 4px;
     font-size: 18px;
@@ -39,31 +36,26 @@ window#waybar.hidden {
 }
 
 #workspaces button.persistent {
-    color: #ffffff;
+    color: #B6B8B7;
+    font-weight: 500;
     font-size: 12px;
     transition: all .3s ease;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-#workspaces button:hover {
-    transition: none;
-    box-shadow: inherit;
-    text-shadow: inherit;
-    border-radius: inherit;
-    color: #B6B8B7;
-    background: rgb(165, 165, 165);
-}
-
-#workspaces button.focused {
-    color: #B6B8B7;
-}
-
 #workspaces button.active {
     font-weight: 700;
-    border-radius: 12px;
-    color: #B6B8B7;
-    background: rgba(48, 69, 55, 0.5);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+#workspaces button.active:first-child,
+#workspaces button:hover:first-child {
+    border-radius: 8px 0px 0px 0px;
+}
+
+#workspaces button.active:last-child,
+#workspaces button:hover:last-child {
+    border-radius: 0px 8px 0px 0px;
 }
 
 #custom-mpris {
@@ -71,16 +63,25 @@ window#waybar.hidden {
     padding-left: 12px;
     padding-right: 12px;
     /* margin: 10px 0 5px 10px; separa del módulo anterior */
-    border-radius: 12px;
-    background: linear-gradient(to left,
-    rgba(55, 87, 63, 0.9),
-    rgba(39, 104, 44, 0.8),
-    rgba(57, 148, 84, 0.7)
-    );
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    border-radius: 8px;
+    background: rgb(106, 127, 161);
+    border: 1px solid rgba(83, 83, 83, 0.664);
     color: #ffffff;
+    font-weight: 500;
     transition: all .3s ease;
 }
+
+/*#custom-cava {
+    font-family: "CodeNewRoman Nerd Font Propo";
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    background: rgb(106, 127, 161);
+    border: 1px solid rgba(83, 83, 83, 0.664);
+    color: #ffffff;
+    font-weight: 500;
+    transition: all .3s ease;
+}*/
 
 #custom-mpris:hover {
     color: #d9ffe7;
@@ -91,16 +92,13 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
+    font-weight: 500;
     transition: all .3s ease;
-    background: linear-gradient(to right,
-    rgba(55, 87, 63, 0.9),
-    rgba(39, 104, 44, 0.8),
-    rgba(57, 148, 84, 0.7)
-    );
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    background: rgb(106, 127, 161);
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #custom-notification:hover {
@@ -110,46 +108,39 @@ window#waybar.hidden {
 #clock {
     padding-left: 16px;
     padding-right: 12px;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 8px;
+    /*border-radius: 8px 0px 0px 8px;*/
     transition: none;
     color: #ffffff;
-    background: rgba(57, 148, 84, 0.7);    
-    border-top: 1px solid rgba(102, 102, 102, 0.664);
-    border-bottom: 1px solid rgba(102, 102, 102, 0.664);
-    border-left: 1px solid rgba(102, 102, 102, 0.664);
+    font-weight: 500;
+    background: rgb(106, 127, 161);
+    border: 1px solid rgba(83, 83, 83, 0.664);
+/*    border-bottom: 1px solid rgba(83, 83, 83, 0.664);
+    border-left: 1px solid rgba(83, 83, 83, 0.664);*/
 }
 
-
-
-#custom-weather {
+/*#custom-weather {
     padding-right: 16px;
-    border-radius: 0px 12px 12px 0px;
+    border-radius: 0px 8px 8px 0px;
     transition: none;
     color: #ffffff;
-    background: linear-gradient(to left,
-    rgba(55, 87, 63, 0.9),
-    rgba(39, 104, 44, 0.8),
-    rgba(57, 148, 84, 0.7)
-    );
-    border-top: 1px solid rgba(102, 102, 102, 0.664);
-    border-bottom: 1px solid rgba(102, 102, 102, 0.664);
-    border-right: 1px solid rgba(102, 102, 102, 0.664);
-}
+    font-weight: 500;
+    background: rgb(106, 127, 161);
+    border-top: 1px solid rgba(83, 83, 83, 0.664);
+    border-bottom: 1px solid rgba(83, 83, 83, 0.664);
+    border-right: 1px solid rgba(83, 83, 83, 0.664);
+}*/
 
 #pulseaudio {
     font-family: "CodeNewRoman Nerd Font Propo";
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     color: #ffffff;
     transition: all .3s ease;
-    background: linear-gradient(to right,
-    rgba(55, 87, 63, 0.9),
-    rgba(39, 104, 44, 0.8),
-    rgba(57, 148, 84, 0.7)
-    );
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    background: #5d9e52;
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #pulseaudio:hover {
@@ -168,11 +159,11 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
-    background:rgba(57, 148, 84, 0.7);
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    background: #5319FA;
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #memory {
@@ -180,11 +171,11 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
-    background:rgba(57, 148, 84, 0.7);
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    background: #6C76FA;
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #temperature {
@@ -192,11 +183,11 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
-    color: #ffffff;    
-    background:rgba(57, 148, 84, 0.7);
-    border: 1px solid rgba(102, 102, 102, 0.664);
+    color: #ffffff;
+    background: #9C19FA;
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #temperature.critical {
@@ -208,14 +199,14 @@ window#waybar.hidden {
     font-family: "CodeNewRoman Nerd Font Propo";
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 8px 0px 0px 8px;
     transition: none;
     color: #ffffff;
     transition: all .3s ease;
-    background:rgba(57, 148, 84, 0.7);
-    border-top: 1px solid rgba(102, 102, 102, 0.664);
-    border-bottom: 1px solid rgba(102, 102, 102, 0.664);
-    border-left: 1px solid rgba(102, 102, 102, 0.664);
+    background: #1928FA;
+    border-top: 1px solid rgba(83, 83, 83, 0.664);
+    border-bottom: 1px solid rgba(83, 83, 83, 0.664);
+    border-left: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #bluetooth:hover {
@@ -224,19 +215,15 @@ window#waybar.hidden {
 
 #network{
     font-family: "CodeNewRoman Nerd Font Propo";
-    padding-right: 12px;
-    border-radius: 0px 12px 12px 0px;
+    padding-right: 16px;
+    border-radius: 0px 8px 8px 0px;
     transition: none;
     color: #ffffff;
     transition: all .3s ease;
-    background: linear-gradient(to left,
-    rgba(55, 87, 63, 0.9),
-    rgba(39, 104, 44, 0.8),
-    rgba(57, 148, 84, 0.7)
-    );
-    border-top: 1px solid rgba(102, 102, 102, 0.664);
-    border-bottom: 1px solid rgba(102, 102, 102, 0.664);
-    border-right: 1px solid rgba(102, 102, 102, 0.664);
+    background: #1928FA;
+    border-top: 1px solid rgba(83, 83, 83, 0.664);
+    border-bottom: 1px solid rgba(83, 83, 83, 0.664);
+    border-right: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 #network:hover {
@@ -248,12 +235,11 @@ window#waybar.hidden {
     margin-left: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
-    background:rgba(55, 87, 63, 0.9);   
-    border: 1px solid rgba(102, 102, 102, 0.664);
-
+    background: #1928FA;
+    border: 1px solid rgba(83, 83, 83, 0.664);
 }
 
 @keyframes blink {

@@ -13,7 +13,7 @@ else
 fi
 
 #icon="<span foreground='#c89dfa'>󰎆</span>"
-icon="<span foreground='#d9ffe7'></span>"
+icon="<span foreground='#f8a5ff'></span>"
 
 # Obtener metadata
 artist=$(playerctl --player=$PLAYER metadata artist 2>/dev/null)

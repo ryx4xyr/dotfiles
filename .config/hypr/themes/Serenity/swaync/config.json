@@ -6,7 +6,7 @@
   "control-center-layer": "top",
   "layer-shell": true,
   "cssPriority": "user",
-  "control-center-width": 250,
+  "control-center-width": 200,
   "control-center-height": 400,
   "control-center-margin-top": 130,
   "control-center-margin-bottom": 130,
@@ -21,6 +21,10 @@
   "timeout": 8,
   "timeout-low": 6,
   "timeout-critical": 0,
+  "notification-animations": true,
+  "animation_style": "fade",
+  "fade_in_ms": 0,
+  "fade_out_ms": 0,
   "fit-to-screen": true,
   "keyboard-shortcuts": true,
   "image-visibility": "when-available",
@@ -45,3 +49,4 @@
     }
   }
 }
+

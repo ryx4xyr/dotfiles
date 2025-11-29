@@ -1,0 +1,8 @@
+(defwidget cava []
+  (box :orientation "h"
+       :spacing 2
+       :halign "center"
+       (for bar in (map i cava_data.bars)
+         (svg :width 4 :height 24
+              (rect :x 0 :y (- 24 (* bar 3)) :width 4 :height (* bar 3)
+                    :rx 1 :fill (gradient :from "#00aaff" :to "#ff00ff"))))))

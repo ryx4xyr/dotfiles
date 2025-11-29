@@ -1,0 +1,15 @@
+[Unit]
+Description=Sonido en notificaciones (via dbus-monitor)
+After=graphical-session.target
+Requires=graphical-session.target
+
+[Service]
+Type=simple
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=%t/bus
+ExecStartPre=/bin/sleep 60
+ExecStart=/home/kry_/.config/scripts/swaync-sound.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target

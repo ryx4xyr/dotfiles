@@ -2,10 +2,10 @@
     "layer": "top",
     "position": "top",
     "height": 28,
-    "margin": "8 10 0 10",
+    "margin": "8 8 0 8",
     "output": "HDMI-A-1",
-    "modules-left": ["hyprland/workspaces", "custom/mpris"],
-    "modules-center": ["custom/notification", "clock", "custom/weather"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["custom/notification", "clock"],
     "modules-right": ["pulseaudio", "cpu", "memory", "temperature", "bluetooth","network", "tray"],
 
 
@@ -19,15 +19,22 @@
         }
     },
 
-    "custom/mpris": {
-            "exec": "~/.config/hypr/themes/Serenity/waybar/scripts/mpris.sh",
-            "interval": 1,
-            "return-type": "json",
-            "on-click": "playerctl -p spotify play-pause",
-            "on-click-right": "playerctl next",
-            "on-click-middle": "playerctl previous",
-            "tooltip": true,
-	},
+//    "custom/mpris": {
+//            "exec": "~/.config/hypr/themes/Serenity/waybar/scripts/mpris.sh",
+//            "interval": 1,
+//            "return-type": "json",
+//            "on-click": "playerctl -p spotify play-pause",
+//            "on-click-right": "playerctl next",
+//            "on-click-middle": "playerctl previous",
+//            "tooltip": true,
+//	},
+
+//      "custom/cava": {
+//          "format": "{}",
+//          "tooltip": false,
+//          "interval": 0.02,
+//          "exec": "~/.config/waybar/scripts/cava.sh"
+//},
 
     //***************************
     //*    CENTER MODULES    // *
@@ -37,14 +44,14 @@
         "tooltip": false,
         "format": "{icon}",
         "format-icons": {
-            "notification": "<span foreground='#d9ffe7'></span><span foreground='white'><sup></sup></span>",
-            "none": "<span foreground='#d9ffe7'></span>",
-            "dnd-notification": "<span foreground='#d9ffe7'></span><span foreground='white'><sup></sup></span>",
-            "dnd-none": "<span foreground='#d9ffe7'></span>",
-            "inhibited-notification": "<span foreground='#d9ffe7'></span><span foreground='white'><sup></sup></span>",
-            "inhibited-none": "<span foreground='#d9ffe7'></span>",
-            "dnd-inhibited-notification": "<span foreground='#d9ffe7'></span><span foreground='white'><sup></sup></span>",
-            "dnd-inhibited-none": "<span foreground='#d9ffe7'></span>"
+            "notification": "<span foreground='#d9e9ff'></span><span foreground='white'><sup></sup></span>",
+            "none": "<span foreground='#d9e9ff'></span>",
+            "dnd-notification": "<span foreground='#d9e9ff'></span><span foreground='white'><sup></sup></span>",
+            "dnd-none": "<span foreground='#d9e9ff'></span>",
+            "inhibited-notification": "<span foreground='#d9e9ff'></span><span foreground='white'><sup></sup></span>",
+            "inhibited-none": "<span foreground='#d9e9ff'></span>",
+            "dnd-inhibited-notification": "<span foreground='#d9e9ff'></span><span foreground='white'><sup></sup></span>",
+            "dnd-inhibited-none": "<span foreground='#d9e9ff'></span>"
     },
         "return-type": "json",
         "exec-if": "which swaync-client",
@@ -60,13 +67,13 @@
         "format": "{:%a, %d %b, %I:%M %p}"
     },
 
-    "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 1800,
-    "exec": "~/.config/waybar/scripts/weather.sh ﻿10.341111111111, -67.040555555556",
-    "return-type": "json"
-    },
+//    "custom/weather": {
+//    "format": "{}",
+//    "tooltip": true,
+//    "interval": 1800,
+//    "exec": "~/.config/waybar/scripts/weather.sh ﻿10.341111111111, -67.040555555556",
+//    "return-type": "json"
+//    },
 
     //***************************
     //*     RIGHT MODULES    // *
@@ -75,39 +82,40 @@
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "reverse-scrolling": 1,
-        "format": "{volume}%  {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": "婢 {format_source}",
-        "format-source": "  {volume}%  <span foreground='#d9ffe7'></span>",
-        "format-source-muted": "",
+        "format": "{volume}%  {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": " {icon}",
+        "format-muted": "",
         "format-icons": {
-            "headphone": "<span foreground='#d9ffe7'></span>",
-            "hands-free": "<span foreground='#d9ffe7'></span>",
-            "headset": "<span foreground='#d9ffe7'></span>",
-            "phone": "<span foreground='#d9ffe7'></span>",
-            "portable": "<span foreground='#d9ffe7'></span>",
-            "car": "<span foreground='#d9ffe7'></span>",
+            "headphone": "<span foreground='#d9e9ff'></span>",
+            "hands-free": "<span foreground='#d9e9ff'></span>",
+            "headset": "<span foreground='#d9e9ff'></span>",
+            "phone": "<span foreground='#d9e9ff'></span>",
+            "portable": "<span foreground='#d9e9ff'></span>",
+            "car": "<span foreground='#d9e9ff'></span>",
             "default": [
-                "<span foreground='#d9ffe7'>奄</span>",
-                "<span foreground='#d9ffe7'>奔</span>",
-                "<span foreground='#d9ffe7'>墳</span>",]
+                "<span foreground='#d9e9ff'>奄</span>",
+                "<span foreground='#d9e9ff'>奔</span>",
+                "<span foreground='#d9e9ff'>墳</span>",]
         },
         "on-click": "pavucontrol",
-        "min-length": 13,
+        "min-length": 8,
+	"tooltip": false,
+	"cursor": false,
     },
 
     "cpu": {
         "format": "{usage}% {icon}",
-        "format-icons": "<span foreground='#d9ffe7'></span>",
+        "format-icons": "<span foreground='#d9e9ff'></span>",
         "tooltip": true,
         "fixed-center": true
     },
 
     "memory": {
         "format": "{used}  {icon}",
-        "format-icons": "<span foreground='#d9ffe7'></span>",
-        "fixed-center": true
+        "format-icons": "<span foreground='#d9e9ff'></span>",
+        "fixed-center": true,
+	"tooltip": true,
     },
 
     "temperature": {
@@ -115,20 +123,20 @@
         "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": [
-            "<span foreground='#d9ffe7'></span>",
-            "<span foreground='#d9ffe7'></span>",
-            "<span foreground='#d9ffe7'></span>",
-            "<span foreground='#d9ffe7'></span>",
-            "<span foreground='#d9ffe7'></span>",],
+            "<span foreground='#d9e9ff'></span>",
+            "<span foreground='#d9e9ff'></span>",
+            "<span foreground='#d9e9ff'></span>",
+            "<span foreground='#d9e9ff'></span>",
+            "<span foreground='#d9e9ff'></span>",],
         "tooltip": false,
     },
 
     "bluetooth": {
-        "format-on": "<span foreground='#d9ffe7'></span>",
+        "format-on": "<span foreground='#d9e9ff'></span>",
         "format-off": "BT-off",
-        "format-disabled": "<span foreground='#d9ffe7'>󰂲</span>",
+        "format-disabled": "<span foreground='#d9e9ff'>󰂲</span>",
         "format-connected-battery": "{device_battery_percentage}% 󰂯",
-        "format-alt": "{device_alias} <span foreground='#d9ffe7'>󰂯</span>",
+        "format-alt": "{device_alias} <span foreground='#d9e9ff'>󰂯</span>",
         "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
@@ -137,9 +145,9 @@
     },
 
     "network": {
-        "format-wifi": "<span foreground='#d9ffe7'></span>",
-        "format-ethernet":"<span foreground='#d9ffe7'></span>",
-        "format-disconnected": "<span foreground='#d9ffe7'></span>",
+        "format-wifi": "<span foreground='#d9e9ff'></span>",
+        "format-ethernet":"<span foreground='#d9e9ff'></span>",
+        "format-disconnected": "<span foreground='#d9e9ff'></span>",
         "tooltip-format-disconnected": "Error",
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
         "tooltip-format-ethernet": "{ifname} 🖧 ",

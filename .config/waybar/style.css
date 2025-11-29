@@ -18,9 +18,8 @@ window#waybar.hidden {
 
 #workspaces {
     margin-right: 5px;
-    padding: 1px;
-    /* padding-right: 2px; */
-    border-radius: 12px;
+    /*padding: 1px;*/
+    border-radius: 8px;
     transition: all .3s ease;
     background: rgb(17, 43, 60);
     border: 1px solid rgba(121, 121, 121, 0.664);
@@ -42,35 +41,27 @@ window#waybar.hidden {
     transition: all .3s ease;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-#workspaces button:hover {
-    transition: none;
-    box-shadow: inherit;
-    text-shadow: inherit;
-    border-radius: inherit;
-    color: #b7ddf3;
-    background: rgba(77, 158, 182, 0.596);
-}
-
-#workspaces button.focused {
-    color: #b7ddf3;
-    font-weight: 500;
-}
-
 #workspaces button.active {
     font-weight: 700;
-    border-radius: 12px;
     color: #b7ddf3;
-    background: rgba(68, 102, 122, 0.5);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
+    border-top: 1px solid #b7ddf3;
 }
 
-#custom-mpris {
+#workspaces button.active:first-child,
+#workspaces button:hover:first-child {
+    border-radius: 8px 0px 0px 0px;
+}
+
+#workspaces button.active:last-child,
+#workspaces button:hover:last-child {
+    border-radius: 0px 8px 0px 0px;
+}
+
+/*#custom-mpris {
     font-family: "CodeNewRoman Nerd Font Propo";
     padding-left: 12px;
     padding-right: 12px;
-    /* margin: 10px 0 5px 10px; separa del módulo anterior */
-    border-radius: 12px;
+    border-radius: 8px;
     background: rgb(17, 43, 60);
     border: 1px solid rgba(121, 121, 121, 0.664);
     color: #ffffff;
@@ -80,14 +71,14 @@ window#waybar.hidden {
 
 #custom-mpris:hover {
     color: #49687a;
-}
+}*/
 
 #custom-notification {
     font-family: "CodeNewRoman Nerd Font Propo";
     margin-right: 5px;
     padding-left: 9px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     font-weight: 500;
@@ -96,24 +87,18 @@ window#waybar.hidden {
     border: 1px solid rgba(121, 121, 121, 0.664);
 }
 
-#custom-notification:hover {
-    color: #eeff00;
-}
-
 #clock {
     padding-left: 16px;
     padding-right: 12px;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     font-weight: 500;
     background: rgb(17, 43, 60);
-    border-top: 1px solid rgba(121, 121, 121, 0.664);
-    border-bottom: 1px solid rgba(121, 121, 121, 0.664);
-    border-left: 1px solid rgba(121, 121, 121, 0.664);
+    border: 1px solid rgba(121, 121, 121, 0.664);
 }
 
-#custom-weather {
+/*#custom-weather {
     padding-right: 16px;
     border-radius: 0px 12px 12px 0px;
     transition: none;
@@ -123,14 +108,14 @@ window#waybar.hidden {
     border-top: 1px solid rgba(121, 121, 121, 0.664);
     border-bottom: 1px solid rgba(121, 121, 121, 0.664);
     border-right: 1px solid rgba(121, 121, 121, 0.664);
-}
+}*/
 
 #pulseaudio {
     font-family: "CodeNewRoman Nerd Font Propo";
     margin-right: 5px;
-    padding-left: 2px;
-    padding-right: 5px;
-    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
     color: #ffffff;
     transition: all .3s ease;
     background: rgb(17, 43, 60);
@@ -153,7 +138,7 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     background: rgb(17, 43, 60);
@@ -165,7 +150,7 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     background: rgb(17, 43, 60);
@@ -177,7 +162,7 @@ window#waybar.hidden {
     margin-right: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     background: rgb(17, 43, 60);
@@ -193,7 +178,7 @@ window#waybar.hidden {
     font-family: "CodeNewRoman Nerd Font Propo";
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 8px 0px 0px 8px;
     transition: none;
     color: #ffffff;
     transition: all .3s ease;
@@ -210,7 +195,7 @@ window#waybar.hidden {
 #network{
     font-family: "CodeNewRoman Nerd Font Propo";
     padding-right: 16px;
-    border-radius: 0px 12px 12px 0px;
+    border-radius: 0px 8px 8px 0px;
     transition: none;
     color: #ffffff;
     transition: all .3s ease;
@@ -229,7 +214,7 @@ window#waybar.hidden {
     margin-left: 5px;
     padding-left: 12px;
     padding-right: 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     transition: none;
     color: #ffffff;
     background: rgb(17, 43, 60);

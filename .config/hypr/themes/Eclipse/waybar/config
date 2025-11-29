@@ -4,8 +4,8 @@
     "height": 28,
     "margin": "8 10 0 10",
     "output": "HDMI-A-1",
-    "modules-left": ["hyprland/workspaces", "custom/mpris"],
-    "modules-center": ["custom/notification", "clock", "custom/weather"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["custom/notification", "clock"],
     "modules-right": ["pulseaudio", "cpu", "memory", "temperature", "bluetooth","network", "tray"],
 
 
@@ -19,15 +19,15 @@
         }
     },
 
-    "custom/mpris": {
-            "exec": "~/.config/hypr/themes/Eclipse/waybar/scripts/mpris.sh",
-            "interval": 1,
-            "return-type": "json",
-            "on-click": "playerctl -p spotify play-pause",
-            "on-click-right": "playerctl next",
-            "on-click-middle": "playerctl previous",
-            "tooltip": true,
-	},
+//    "custom/mpris": {
+//            "exec": "~/.config/hypr/themes/Eclipse/waybar/scripts/mpris.sh",
+//            "interval": 1,
+//            "return-type": "json",
+//            "on-click": "playerctl -p spotify play-pause",
+//            "on-click-right": "playerctl next",
+//            "on-click-middle": "playerctl previous",
+//            "tooltip": true,
+//	},
 
     //***************************
     //*    CENTER MODULES    // *
@@ -60,13 +60,13 @@
         "format": "{:%a, %d %b, %I:%M %p}"
     },
 
-    "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 1800,
-    "exec": "~/.config/waybar/scripts/weather.sh ﻿10.341111111111, -67.040555555556",
-    "return-type": "json"
-    },
+//    "custom/weather": {
+//    "format": "{}",
+//    "tooltip": true,
+//    "interval": 1800,
+//    "exec": "~/.config/waybar/scripts/weather.sh ﻿10.341111111111, -67.040555555556",
+//    "return-type": "json"
+//    },
 
     //***************************
     //*     RIGHT MODULES    // *
@@ -92,7 +92,7 @@
                 "<span foreground='#d2edfc'>墳</span>",]
         },
         "on-click": "pavucontrol",
-        "min-length": 10,
+        "min-length": 8,
 	"tooltip": false,
 	"cursor": false,
     },
@@ -108,7 +108,7 @@
         "format": "{used}  {icon}",
         "format-icons": "<span foreground='#d2edfc'></span>",
         "fixed-center": true,
-	"tooltip": false,
+	"tooltip": true,
     },
 
     "temperature": {
