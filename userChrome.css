@@ -1,0 +1,118 @@
+/* === CENTRAR Y ESTILIZAR BARRA DE DIRECCIONES === */
+#urlbar-container {
+  margin-inline: auto !important;
+  max-width: 500px !important;
+  width: 100% !important; /* Evita expansión lateral */
+}
+
+#urlbar,
+#urlbar-input-container,
+#urlbar-background {
+  border-radius: 20px !important;
+}
+
+/* Fondo y borde personalizados */
+#urlbar-background {
+  border: 1px solid var(--toolbar-field-border-color, color-mix(in srgb, currentColor 20%, transparent)) !important;
+  background-color: var(--toolbar-field-background-color) !important;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* === PANEL DESPLEGABLE CON BLUR Y TRANSICIÓN SUAVE === */
+.urlbarView {
+  opacity: 0;
+  transform: translateY(-4px);
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  border-radius: 16px !important;
+  border: none !important;
+  margin-top: 6px !important;
+  padding: 6px !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3) !important;
+  overflow: hidden !important;
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out !important;
+}
+
+#urlbar[open] .urlbarView {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Modo oscuro para el panel */
+@media (prefers-color-scheme: dark) {
+  .urlbarView {
+    background-color: rgba(30, 30, 30, 0.5) !important;
+    border: none !important;
+  }
+}
+
+/* === ESTILO DE RESULTADOS INDIVIDUALES === */
+.urlbarView-row {
+  border-radius: 12px !important;
+  padding: 4px 8px !important;
+  margin: 2px 0 !important;
+}
+
+.urlbarView-row[selected] {
+  background-color: var(--arrowpanel-dimmed) !important;
+  color: white !important;
+}
+
+/* Opcional: evitar que las esquinas del desplegable se recorten */
+#urlbar-results {
+  overflow: visible !important;
+}
+
+.identity-permission-box,
+.tracking-protection-icon-container,
+.picture-in-picture-button {
+  display: none !important; /* Oculta iconos innecesarios */
+}
+
+#tracking-protection-icon-container,
+#picture-in-picture-button-icon,
+#titlebar-button-titlebar-close,
+#forward-button, #back-button,
+.titlebar-close {
+  display: none;
+}
+
+#sidebar-button {
+  padding-left: 12px;
+}
+
+#urlbar-input {
+  text-align: center !important;
+}
+
+#urlbar-container:not(:focus-within) #urlbar-input {
+  color: rgba(160, 160, 160, 0.6) !important;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+#urlbar-container:focus-within #urlbar-input {
+  color: var(--toolbar-field-color) !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
+#urlbar-container:not(:focus-within) #identity-box,
+#urlbar-container:not(:focus-within) #page-action-buttons,
+#urlbar-container:not(:focus-within) .urlbar-page-action,
+#urlbar-container:not(:focus-within) #translations-button {
+  opacity: 0.4 !important;
+  filter: grayscale(80%) blur(0.3px) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+#urlbar-searchmode-switcher {
+  background-color: var(--urlbar-box-bgcolor);
+  border-radius: 16px;
+}
+
+.urlbar box {
+  border-radius: 16px;
+}
+
